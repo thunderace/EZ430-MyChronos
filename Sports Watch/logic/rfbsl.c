@@ -48,7 +48,9 @@
 
 // logic
 #include "rfbsl.h"
+#ifdef BLUEROBIN
 #include "bluerobin.h"
+#endif
 #include "rfsimpliciti.h"
 
 // *************************************************************************************************
@@ -67,10 +69,11 @@ void sx_rfbsl(u8 line)
     if (sys.flag.low_battery)
         return;
 
+#ifdef BLUEROBIN
     // Exit if BlueRobin stack is active
     if (is_bluerobin())
         return;
-
+#endif
     // Exit if SimpliciTI stack is active
     if (is_rf())
         return;

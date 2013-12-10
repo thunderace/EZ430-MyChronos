@@ -1,5 +1,7 @@
 #include "project.h"
 
+// stubs to avoid Undefined external from ez430_chronos_driver
+
 void BlueRobin_RadioISR_v(void){
   return;
 }
@@ -14,14 +16,6 @@ unsigned char is_bluerobin(void){
 
 unsigned char is_bluerobin_searching(void){
   return 0;
-}
-
-void test_mode(void){
-  return;
-}
-
-void reset_bluerobin(void){
-  return;
 }
 
 void get_bluerobin_data(void){
@@ -41,6 +35,7 @@ typedef enum
   BLUEROBIN_NO_UPDATE = 0, // No new data available
   BLUEROBIN_NEW_DATA // New data arrived
 } BlueRobin_update_t;
+
 
 struct br
 {
@@ -74,4 +69,3 @@ u8 caldist_view;
 };
 
 struct br sBlueRobin;
-

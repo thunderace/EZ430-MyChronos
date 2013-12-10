@@ -54,7 +54,9 @@
 // logic
 #include "acceleration.h"
 #include "rfsimpliciti.h"
+#ifdef BLUEROBIN
 #include "bluerobin.h"
+#endif
 #include "simpliciti.h"
 #include "clock.h"
 #include "date.h"
@@ -137,11 +139,11 @@ void sx_rf(u8 line)
     // Exit if battery voltage is too low for radio operation
     if (sys.flag.low_battery)
         return;
-
+#ifdef BLUEROBIN
     // Exit if BlueRobin stack is active
     if (is_bluerobin())
         return;
-
+#endif
     // Turn off the backlight
     P2OUT &= ~BUTTON_BACKLIGHT_PIN;
     P2DIR &= ~BUTTON_BACKLIGHT_PIN;
@@ -167,10 +169,11 @@ void sx_ppt(u8 line)
     if (sys.flag.low_battery)
         return;
 
+#ifdef BLUEROBIN
     // Exit if BlueRobin stack is active
     if (is_bluerobin())
         return;
-
+#endif
     // Turn off the backlight
     P2OUT &= ~BUTTON_BACKLIGHT_PIN;
     P2DIR &= ~BUTTON_BACKLIGHT_PIN;
@@ -195,10 +198,11 @@ void sx_sync(u8 line)
     if (sys.flag.low_battery)
         return;
 
-    // Exit if BlueRobin stack is active
+#ifdef BLUEROBIN
+   // Exit if BlueRobin stack is active
     if (is_bluerobin())
         return;
-
+#endif
     // Turn off the backlight
     P2OUT &= ~BUTTON_BACKLIGHT_PIN;
     P2DIR &= ~BUTTON_BACKLIGHT_PIN;
