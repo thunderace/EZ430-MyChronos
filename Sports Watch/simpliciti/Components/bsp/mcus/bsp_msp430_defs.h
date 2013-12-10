@@ -97,7 +97,20 @@
 /* Initialization call provided in CCE environment before standard C-startup */
 // [BM] Cannot have a second low level init! Already done by application!
 //#define BSP_EARLY_INIT(void)  int _system_pre_init(void)
-	
+
+#elif defined(__GNUC__)
+
+#define BSP_COMPILER_GCC
+
+#define __bsp_ISTATE_T__	unsigned short
+#define __bsp_ISR_FUNCTION__(f,v)	interrupt(v) f()
+#if (__CC430F6137__)
+#include <cc430x613x.h>
+#else
+#include <msp430.h>
+#endif
+
+
 /* ------------------ Unrecognized Compiler ------------------ */
 #else
 #error "ERROR: Unknown compiler."

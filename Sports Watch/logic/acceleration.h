@@ -66,6 +66,9 @@ struct accel
 };
 extern struct accel sAccel;
 
+
+extern u8 bmp_used;
+
 // *************************************************************************************************
 // Extern section
 extern void reset_acceleration(void);
