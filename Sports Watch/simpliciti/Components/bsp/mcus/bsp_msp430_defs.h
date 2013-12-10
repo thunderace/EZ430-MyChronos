@@ -129,6 +129,21 @@
 
 #endif
 
+//pfs
+#if (defined BSP_COMPILER_GCC)
+#include <intrinsics.h>
+  //pfs #include <io.h>
+  #include <signal.h>
+  
+  #define __bsp_ENABLE_INTERRUPTS__()       eint()
+  #define __bsp_DISABLE_INTERRUPTS__()      dint()
+  #define __bsp_INTERRUPTS_ARE_ENABLED__()  (READ_SR&0x0008)
+  
+  #define __bsp_GET_ISTATE__()              (READ_SR&0x0008)
+  #define __bsp_RESTORE_ISTATE__(x)         __asm__("bis %0,r2" : : "ir" ((uint16_t) x))
+  #define __bsp_QUOTED_PRAGMA__(x)          _Pragma(#x)
+#endif                                      
+                                      
 /* ------------------------------------------------------------------------------------------------
  *                                          Common
  * ------------------------------------------------------------------------------------------------
@@ -137,6 +152,7 @@
 #define __bsp_CODE_MEMSPACE__   /* blank */
 #define __bsp_XDATA_MEMSPACE__  /* blank */
 
+#ifndef __GNUC__ //mspgcc defines these
 typedef   signed char     int8_t;
 typedef   signed short    int16_t;
 typedef   signed long     int32_t;
@@ -144,6 +160,7 @@ typedef   signed long     int32_t;
 typedef   unsigned char   uint8_t;
 typedef   unsigned short  uint16_t;
 typedef   unsigned long   uint32_t;
+#endif
 
 #ifndef NULL
 #define NULL 0
