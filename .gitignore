@@ -16,6 +16,6 @@
 *.out
 *.app
 
-Exe
-List
-Obj
+*/*/Exe/*
+*/*/List/*
+*/*/Obj/*
