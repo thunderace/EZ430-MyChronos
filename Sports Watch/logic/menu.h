@@ -79,7 +79,7 @@ extern const struct menu menu_L1_Acceleration;
 extern const struct menu menu_L2_Date;
 extern const struct menu menu_L2_Stopwatch;
 extern const struct menu menu_L2_Battery;
-extern const struct menu menu_L2_Rf;
+extern const struct menu menu_L2_Acc;
 extern const struct menu menu_L2_Ppt;
 extern const struct menu menu_L2_Sync;
 extern const struct menu menu_L2_CalDist;

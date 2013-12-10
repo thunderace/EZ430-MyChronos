@@ -107,11 +107,15 @@
 #include "altitude.h"
 #include "battery.h"
 #include "acceleration.h"
+#ifdef BLUEROBIN
 #include "bluerobin.h"
+#endif
 #include "rfsimpliciti.h"
 #include "simpliciti.h"
 #include "rfbsl.h"
+#ifdef TEST
 #include "test.h"
+#endif
 
 // *************************************************************************************************
 // Prototypes section
@@ -175,10 +179,10 @@ int main(void)
 
     // Assign initial value to global variables
     init_global_variables();
-
+#ifdef TEST
     // Branch to welcome screen
     test_mode();
-
+#endif
     // Main control loop: wait in low power mode until some event needs to be processed
     while (1)
     {
@@ -347,19 +351,15 @@ void init_global_variables(void)
     // set menu pointers to default menu items
     ptrMenu_L1 = &menu_L1_Time;
     //      ptrMenu_L1 = &menu_L1_Alarm;
-    //      ptrMenu_L1 = &menu_L1_Heartrate;
-    //      ptrMenu_L1 = &menu_L1_Speed;
     //      ptrMenu_L1 = &menu_L1_Temperature;
     //      ptrMenu_L1 = &menu_L1_Altitude;
     //      ptrMenu_L1 = &menu_L1_Acceleration;
     ptrMenu_L2 = &menu_L2_Date;
     //      ptrMenu_L2 = &menu_L2_Stopwatch;
-    //      ptrMenu_L2 = &menu_L2_Rf;
+    //      ptrMenu_L2 = &menu_L2_Battery;
+    //      ptrMenu_L2 = &menu_L2_Acc;
     //      ptrMenu_L2 = &menu_L2_Ppt;
     //      ptrMenu_L2 = &menu_L2_Sync;
-    //      ptrMenu_L2 = &menu_L2_Distance;
-    //      ptrMenu_L2 = &menu_L2_Calories;
-    //      ptrMenu_L2 = &menu_L2_Battery;
     //      ptrMenu_L2 = &menu_L2_RFBSL;
 
     // Assign LINE1 and LINE2 display functions
@@ -405,9 +405,10 @@ void init_global_variables(void)
     // Reset acceleration measurement
     reset_acceleration();
 
+#ifdef BLUEROBIN    
     // Reset BlueRobin stack
     reset_bluerobin();
-
+#endif
     // Reset SimpliciTI stack
     reset_rf();
 
@@ -526,11 +527,6 @@ void wakeup_event(void)
         // Activate user function for Line2 menu item
         else if (button.flag.down)
         {
-            if (ptrMenu_L2 == &menu_L2_RFBSL)
-            {
-
-            }
-
             // Call direct function
             ptrMenu_L2->sx_function(LINE2);
 
@@ -664,6 +660,7 @@ void display_update(void)
     }
     // ---------------------------------------------------------------------
     // Restore blinking icons (blinking memory is cleared when calling set_value)
+#ifdef BLUEROBIN
     if (display.flag.full_update)
     {
         if (is_bluerobin() == BLUEROBIN_CONNECTED)
@@ -674,6 +671,7 @@ void display_update(void)
             display_symbol(LCD_ICON_BEEPER3, SEG_ON_BLINK_OFF);
         }
     }
+#endif
     // Clear display flag
     display.all_flags = 0;
 }

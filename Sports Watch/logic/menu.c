@@ -212,11 +212,11 @@ const struct menu menu_L2_Battery = {
     FUNCTION(dummy),                  // sub menu function
     FUNCTION(display_battery_V),      // display function
     FUNCTION(update_battery_voltage), // new display data
-    &menu_L2_Rf,
+    &menu_L2_Acc,
 };
 
 // Line2 - ACC (acceleration data + button events via SimpliciTI)
-const struct menu menu_L2_Rf = {
+const struct menu menu_L2_Acc = {
     FUNCTION(sx_rf),                  // direct function
     FUNCTION(dummy),                  // sub menu function
     FUNCTION(display_rf),             // display function

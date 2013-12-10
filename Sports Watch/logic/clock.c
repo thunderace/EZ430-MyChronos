@@ -92,8 +92,8 @@ void reset_clock(void)
     sTime.system_time = 0;
 
     // Set main 24H time to start value
-    sTime.hour = 4;
-    sTime.minute = 30;
+    sTime.hour = 16;
+    sTime.minute = 0;
     sTime.second = 0;
 
     // Display style of both lines is default (HH:MM)

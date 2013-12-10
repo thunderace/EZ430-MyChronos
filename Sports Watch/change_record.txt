@@ -1,6 +1,7 @@
 V0.1 (thunderace version)
 Changes
 - Bluerobin and test removed
+- Default date, hour and alarm changed
 
 V1.8 (11.10.2013)
 Changes

@@ -79,8 +79,8 @@ extern void (*fptr_lcd_function_line2)(u8 line, u8 update);
 void reset_date(void)
 {
     // Set date
-    sDate.year = 2009;
-    sDate.month = 8;
+    sDate.year = 2013;
+    sDate.month = 12;
     sDate.day = 1;
 
     // Show day and month on display
