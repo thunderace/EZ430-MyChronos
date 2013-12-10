@@ -43,6 +43,7 @@
  *                                          Includes
  * ------------------------------------------------------------------------------------------------
  */
+#include "../../Applications/configuration/smpl_nwk_config.h"
 #include "bsp.h"
 #include "mrfi_defs.h"
 

@@ -36,6 +36,7 @@
 #ifndef NWK_H
 #define NWK_H
 
+#include "../../Applications/configuration/smpl_nwk_config.h"
 
 /* well known ports*/
 #define SMPL_PORT_PING          0x01
