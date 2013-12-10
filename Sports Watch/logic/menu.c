@@ -54,7 +54,9 @@
 #include "temperature.h"
 #include "altitude.h"
 #include "battery.h"
+#ifdef BLUEROBIN
 #include "bluerobin.h"
+#endif
 #include "rfsimpliciti.h"
 #include "acceleration.h"
 #include "rfbsl.h"
@@ -113,9 +115,9 @@ u8 update_acceleration(void)
 // *************************************************************************************************
 // User navigation ( [____] = default menu item after reset )
 //
-//      LINE1:  [Time] -> Alarm -> Temperature -> Altitude -> Heart rate -> Speed -> Acceleration
+//      LINE1:  [Time] -> Alarm -> Temperature -> Altitude -> Acceleration
 //
-//      LINE2:  [Date] -> Stopwatch -> Battery  -> ACC -> PPT -> SYNC -> Calories/Distance --> RFBSL
+//      LINE2:  [Date] -> Stopwatch -> Battery  -> ACC -> PPT -> SYNC -> RFBSL
 // *************************************************************************************************
 
 // Line1 - Time
@@ -151,9 +153,14 @@ const struct menu menu_L1_Altitude = {
     FUNCTION(mx_altitude),            // sub menu function
     FUNCTION(display_altitude),       // display function
     FUNCTION(update_time),            // new display data
+#ifdef BLUEROBIN
     &menu_L1_Heartrate,
+#else
+    &menu_L1_Acceleration,
+#endif
 };
 
+#ifdef BLUEROBIN
 // Line1 - Heart Rate
 const struct menu menu_L1_Heartrate = {
     FUNCTION(sx_bluerobin),           // direct function
@@ -171,7 +178,7 @@ const struct menu menu_L1_Speed = {
     FUNCTION(update_time),            // new display data
     &menu_L1_Acceleration,
 };
-
+#endif
 // Line1 - Acceleration
 const struct menu menu_L1_Acceleration = {
     FUNCTION(sx_acceleration),        // direct function
@@ -232,9 +239,14 @@ const struct menu menu_L2_Sync = {
     FUNCTION(dummy),                  // sub menu function
     FUNCTION(display_sync),           // display function
     FUNCTION(update_time),            // new display data
+#ifdef BLUEROBIN
     &menu_L2_CalDist,
+#else
+    &menu_L2_RFBSL,
+#endif
 };
 
+#ifdef BLUEROBIN
 // Line2 - Calories/Distance
 const struct menu menu_L2_CalDist = {
     FUNCTION(sx_caldist),             // direct function
@@ -243,7 +255,7 @@ const struct menu menu_L2_CalDist = {
     FUNCTION(update_time),            // new display data
     &menu_L2_RFBSL,
 };
-
+#endif
 // Line2 - RFBSL
 const struct menu menu_L2_RFBSL = {
     FUNCTION(sx_rfbsl),               // direct function

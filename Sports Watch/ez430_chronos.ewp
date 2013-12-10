@@ -6150,6 +6150,7 @@
       <excluded>
         <configuration>433MHz - Unrestricted IAR Workbench (Other regions)</configuration>
         <configuration>433MHz - Limited IAR KickStart (Other regions)</configuration>
+        <configuration>868MHz - Limited IAR KickStart (Europe)</configuration>
         <configuration>915MHz - Unrestricted IAR Workbench (USA)</configuration>
         <configuration>915MHz - Limited IAR KickStart (USA)</configuration>
       </excluded>
@@ -6339,9 +6340,17 @@
     </file>
     <file>
       <name>$PROJ_DIR$\logic\bluerobin.c</name>
+      <excluded>
+        <configuration>433MHz - Limited IAR KickStart (Other regions)</configuration>
+        <configuration>868MHz - Limited IAR KickStart (Europe)</configuration>
+        <configuration>915MHz - Limited IAR KickStart (USA)</configuration>
+      </excluded>
     </file>
     <file>
       <name>$PROJ_DIR$\logic\bluerobin.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\logic\bluerobin_stubs.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\logic\clock.c</name>
@@ -6387,6 +6396,11 @@
     </file>
     <file>
       <name>$PROJ_DIR$\logic\test.c</name>
+      <excluded>
+        <configuration>433MHz - Limited IAR KickStart (Other regions)</configuration>
+        <configuration>868MHz - Limited IAR KickStart (Europe)</configuration>
+        <configuration>915MHz - Limited IAR KickStart (USA)</configuration>
+      </excluded>
     </file>
     <file>
       <name>$PROJ_DIR$\logic\test.h</name>

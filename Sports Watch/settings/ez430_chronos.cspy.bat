@@ -19,6 +19,6 @@
 @REM 
 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\common\bin\cspybat" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\430\bin\430proc.dll" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\430\bin\430fet.dll"  %1 --plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\430\bin\430bat.dll" --backend -B "-p" "C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\430\config\CC430F6137.ddf" "--core=430Xv2" "--data_model=small" "--iv_base" "0xFF80" "--cpu_bug_30" "-d" "fet" "--erase_main" "--derivative" "CC430F6137" "--protocol" "automatic" "--eem" "EMEX_SMALL_5XX" "--port" "Automatic" "--connection" "ti_usb" "--settlingtime=0" "--msp430_dll" "msp430.dll" "--vccDefault" "3.3" "--jtag_speed" "medium" 
+"D:\ALaurent\eZ430\dev\IAR Embedded Workbench 6.5\common\bin\cspybat" "D:\ALaurent\eZ430\dev\IAR Embedded Workbench 6.5\430\bin\430proc.dll" "D:\ALaurent\eZ430\dev\IAR Embedded Workbench 6.5\430\bin\430fet.dll"  %1 --plugin "D:\ALaurent\eZ430\dev\IAR Embedded Workbench 6.5\430\bin\430bat.dll" --backend -B "-p" "D:\ALaurent\eZ430\dev\IAR Embedded Workbench 6.5\430\config\CC430F6137.ddf" "--core=430Xv2" "--data_model=small" "--iv_base" "0xFF80" "--cpu_bug_30" "-d" "fet" "--erase_main" "--derivative" "CC430F6137" "--protocol" "automatic" "--eem" "EMEX_SMALL_5XX" "--port" "Automatic" "--connection" "ti_usb" "--settlingtime=0" "--msp430_dll" "msp430.dll" "--vccDefault" "3.3" "--jtag_speed" "medium" 
 
 
