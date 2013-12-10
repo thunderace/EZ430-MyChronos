@@ -157,6 +157,10 @@ u8 chronos_black;
 // Compensates crystal deviation from 26MHz nominal value
 u8 rf_frequoffset;
 
+// $$AL$$ For Backlight: 
+u8 BlOnFlag = 0;
+
+
 // Function pointers for LINE1 and LINE2 display function
 void (*fptr_lcd_function_line1)(u8 line, u8 update);
 void (*fptr_lcd_function_line2)(u8 line, u8 update);
@@ -514,11 +518,16 @@ void wakeup_event(void)
         // Activate user function for Line1 menu item
         else if (button.flag.up)
         {
+#if 1
+            BlOnFlag = 1;
+            display_symbol(LCD_ICON_HEART, SEG_ON);
+#else
             // Call direct function
             ptrMenu_L1->sx_function(LINE1);
 
             // Set Line1 display update flag
             display.flag.line1_full_update = 1;
+#endif
 
             // Clear button flag
             button.flag.up = 0;
@@ -536,6 +545,17 @@ void wakeup_event(void)
             // Clear button flag
             button.flag.down = 0;
         }
+        // $$AL$$ Backlight button event ----------------------------------------------------------
+	else if(button.flag.backlight) 	
+	{
+            // display heart symbol for 5 seconds
+            BlOnFlag = 1;
+            display_symbol(LCD_ICON_HEART, SEG_ON); 
+//             BUTTONS_OUT |= BUTTON_BACKLIGHT_PIN;
+//             BUTTONS_DIR |= BUTTON_BACKLIGHT_PIN;
+//             BUTTONS_DS  |= BUTTON_BACKLIGHT_PIN;
+	     button.flag.backlight = 0;
+ 	}			
     }
     // Process internal events
     if (sys.all_flags)

@@ -6348,6 +6348,9 @@
     </file>
     <file>
       <name>$PROJ_DIR$\logic\bluerobin.h</name>
+      <excluded>
+        <configuration>868MHz - Limited IAR KickStart (Europe)</configuration>
+      </excluded>
     </file>
     <file>
       <name>$PROJ_DIR$\logic\bluerobin_stubs.c</name>
@@ -6404,6 +6407,9 @@
     </file>
     <file>
       <name>$PROJ_DIR$\logic\test.h</name>
+      <excluded>
+        <configuration>868MHz - Limited IAR KickStart (Europe)</configuration>
+      </excluded>
     </file>
     <file>
       <name>$PROJ_DIR$\logic\user.c</name>
