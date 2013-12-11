@@ -68,12 +68,12 @@ u8 cma_ps_write_register(u8 address, u8 data);
 // *************************************************************************************************
 void cma_ps_init(void)
 {
-    volatile u8 success, status, eeprom, timeout;
+    volatile u8 status, eeprom;
 
     ps_init();
 
     // Reset pressure sensor -> powerdown sensor
-    success = cma_ps_write_register(0x06, 0x01);
+    cma_ps_write_register(0x06, 0x01);
 
     // 100msec delay
     Timer0_A4_Delay(CONV_MS_TO_TICKS(100));
@@ -191,7 +191,7 @@ u16 cma_ps_get_temp(void)
 
     temp = data / 2;
 
-    // Convert from °C to K
+    // Convert from C to K
     if (is_negative)
         kelvin = 2732 - temp;
     else

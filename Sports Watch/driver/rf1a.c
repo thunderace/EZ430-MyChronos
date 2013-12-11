@@ -121,7 +121,7 @@ unsigned char ReadSingleReg(unsigned char addr)
 // *************************************************************************************************
 void WriteSingleReg(unsigned char addr, unsigned char value)
 {
-    volatile unsigned int i;
+    __attribute__((unused)) volatile unsigned int i;
     u16 int_state;
 
     ENTER_CRITICAL_SECTION(int_state);

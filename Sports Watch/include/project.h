@@ -199,4 +199,8 @@ extern volatile s_message_flags message;
 extern u8 bmp_used;
 
 
+/* Include function defined in even_in_range.s TODO: do we even need this?? */
+unsigned short __even_in_range(unsigned short __value, unsigned short __bound);
+
+
 #endif /*PROJECT_H_*/

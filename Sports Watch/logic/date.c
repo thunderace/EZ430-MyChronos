@@ -173,7 +173,7 @@ void mx_date(u8 line)
     s32 day;
     s32 month;
     s32 year;
-    s16 max_days;
+    s16 max_days = 0;
     u8 *str;
     u8 *str1;
 

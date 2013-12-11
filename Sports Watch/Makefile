@@ -8,24 +8,22 @@ PROJ_DIR	=.
 BUILD_DIR = build
 CFLAGS_PRODUCTION = -Os -Wall#-Wl,--gc-sections # -ffunction-sections # -fdata-sections  -fno-inline-functions# -O optimizes
 # more optimizion flags
-CFLAGS_PRODUCTION +=  -fomit-frame-pointer -fno-force-addr -finline-limit=1 -fno-schedule-insns 
+#-mmcu=cc430f6137 -D__MSP430_6137__ -DMRFI_CC430 -D__CC430F6137__ -Wall -fno-force-addr -finline-limit=1 -fno-schedule-insns -fshort-enums -Wl,-Map=output.map -Os -fdata-sections -ffunction-sections -fomit-frame-pointer
+CFLAGS_PRODUCTION +=  -fomit-frame-pointer -fno-force-addr -finline-limit=1 -fno-schedule-insns -fshort-enums -fdata-sections -ffunction-sections
 CFLAGS_PRODUCTION += -Wl,-Map=output.map
 CFLAGS_DEBUG= -g -Os # -g enables debugging symbol table, -O0 for NO optimization
 
-CC_CMACH	= -mmcu=cc430x6137
-CC_DMACH	= -D__MSP430_6137__ -DMRFI_CC430 -D__CC430F6137__ #-DCC__MSPGCC didn't need mspgcc defines __GNUC__
-CC_DOPT		= -DELIMINATE_BLUEROBIN
+CC_CMACH	= -mmcu=cc430f6137
+CC_DMACH	= -D__MSP430_6137__ -DMRFI_CC430 -D__CC430F6137__ 
+#CC_DOPT		= -DELIMINATE_BLUEROBIN
 CC_INCLUDE = -I$(PROJ_DIR)/ -I$(PROJ_DIR)/include/ -I$(PROJ_DIR)/gcc/ -I$(PROJ_DIR)/driver/ -I$(PROJ_DIR)/logic/ -I$(PROJ_DIR)/bluerobin/ -I$(PROJ_DIR)/simpliciti/ -I$(PROJ_DIR)/simpliciti/Components/bsp -I$(PROJ_DIR)/simpliciti/Components/bsp/drivers -I$(PROJ_DIR)/simpliciti/Components/bsp/boards/CC430EM -I$(PROJ_DIR)/simpliciti/Components/mrfi -I$(PROJ_DIR)/simpliciti/Components/nwk -I$(PROJ_DIR)/simpliciti/Components/nwk_applications
-
 CC_COPT		=  $(CC_CMACH) $(CC_DMACH) $(CC_DOPT)  $(CC_INCLUDE) 
 
-#LOGIC_SOURCE = logic/acceleration.c logic/alarm.c logic/altitude.c logic/battery.c  logic/clock.c logic/date.c logic/menu.c logic/rfbsl.c logic/rfsimpliciti.c logic/stopwatch.c logic/temperature.c logic/test.c logic/user.c logic/phase_clock.c logic/eggtimer.c logic/prout.c logic/vario.c logic/sidereal.c logic/strength.c \
-LOGIC_SOURCE = logic/acceleration.c logic/alarm.c logic/altitude.c logic/battery.c  logic/clock.c logic/date.c logic/menu.c logic/rfbsl.c logic/rfsimpliciti.c logic/stopwatch.c logic/temperature.c logic/test.c logic/user.c  \
-				logic/sequence.c logic/gps.c logic/dst.c
-
+#LOGIC_SOURCE = logic/acceleration.c logic/alarm.c logic/altitude.c logic/battery.c logic/clock.c logic/date.c logic/menu.c logic/rfbsl.c logic/rfsimpliciti.c logic/stopwatch.c logic/temperature.c logic/test.c logic/user.c logic/phase_clock.c logic/eggtimer.c logic/prout.c logic/vario.c logic/sidereal.c logic/strength.c
+LOGIC_SOURCE = logic/acceleration.c logic/alarm.c logic/altitude.c logic/battery.c logic/clock.c logic/date.c logic/menu.c logic/rfbsl.c logic/rfsimpliciti.c logic/stopwatch.c logic/temperature.c logic/user.c
 LOGIC_O = $(addsuffix .o,$(basename $(LOGIC_SOURCE)))
 
-DRIVER_SOURCE =  driver/adc12.c driver/buzzer.c driver/display.c driver/pmm.c driver/ports.c driver/radio.c driver/rf1a.c   driver/timer.c
+DRIVER_SOURCE =  driver/adc12.c driver/as.c driver/bmp_as.c driver/bmp_ps.c driver/buzzer.c driver/cma_as.c driver/cma_ps.c driver/display.c driver/pmm.c driver/ports.c driver/ps.c driver/radio.c driver/rf1a.c driver/timer.c 
 #DRIVER_SOURCE =  driver/adc12.c driver/buzzer.c driver/display.c driver/pmm.c driver/ports.c driver/radio.c driver/rf1a.c   driver/timer.c  driver/vti_as.c driver/vti_ps.c driver/dsp.c driver/infomem.c
 DRIVER_O = $(addsuffix .o,$(basename $(DRIVER_SOURCE)))
 
@@ -35,9 +33,14 @@ SIMPLICICTI_SOURCE = $(SIMPLICICTI_SOURCE_ODD) simpliciti/Components/bsp/bsp.c s
 
 SIMPLICICTI_O = $(addsuffix .o,$(basename $(SIMPLICICTI_SOURCE)))
 
-MAIN_SOURCE = ezchronos.c  gcc/intrinsics.c 
+#MAIN_SOURCE = ezchronos.c  gcc/intrinsics.c 
 
-MAIN_O = ezchronos.o gcc/intrinsics.o 
+#MAIN_O = ezchronos.o gcc/intrinsics.o 
+
+MAIN_SOURCE = main.c  
+
+MAIN_O = main.o 
+
 
 ALL_O = $(LOGIC_O) $(DRIVER_O) $(SIMPLICICTI_O) $(MAIN_O)
 
@@ -57,12 +60,13 @@ USE_CFLAGS = $(CFLAGS_DEBUG)
 endif
 
 #main: build config.h even_in_range $(ALL_O) $(EXTRA_O) build
-main: $(ALL_O) $(EXTRA_O) build
+main: even_in_range $(ALL_O) $(EXTRA_O) build
 	@echo $(findstring debug,$(MAKEFLAGS))
 	@echo "Compiling $@ for $(CPU)..."
 	$(CC) $(CC_CMACH) $(CFLAGS_PRODUCTION) -o $(BUILD_DIR)/eZChronos.elf $(ALL_O) $(EXTRA_O)
 	@echo "Convert to TI Hex file"
-	$(PYTHON) tools/memory.py -i build/eZChronos.elf -o build/eZChronos.txt
+#	$(PYTHON) tools/memory.py -i build/eZChronos.elf -o build/eZChronos.txt
+	$(PYTHON) tools/firmware/memory.py -i build/eZChronos.elf -o build/eZChronos.txt
 
 #debug:	foo
 #	@echo USE_CFLAGS = $(CFLAGS_DEBUG)

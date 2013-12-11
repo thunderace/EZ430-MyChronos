@@ -1,0 +1,2810 @@
+Archive member included because of file (symbol)
+
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+                              driver/bmp_ps.o (__udivsi3)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_divmod32.o)
+                              logic/altitude.o (__divsi3)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fixunssfsi.o)
+                              logic/acceleration.o (__fixunssfsi)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_addsub_sf.o)
+                              logic/acceleration.o (__addsf3)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_mul_sf.o)
+                              logic/acceleration.o (__mulsf3)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_div_sf.o)
+                              driver/ps.o (__divsf3)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_gt_sf.o)
+                              driver/ps.o (__gtsf2)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_ge_sf.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fixunssfsi.o) (__gesf2)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_lt_sf.o)
+                              driver/ps.o (__ltsf2)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_si_to_sf.o)
+                              driver/ps.o (__floatsisf)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_sf_to_si.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fixunssfsi.o) (__fixsfsi)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_thenan_sf.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_addsub_sf.o) (__thenan_sf)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_usi_to_sf.o)
+                              logic/acceleration.o (__floatunsisf)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clzsi2.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_si_to_sf.o) (__clzsi2)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_pack_sf.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_addsub_sf.o) (__pack_f)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_unpack_sf.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_addsub_sf.o) (__unpack_f)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fpcmp_parts_sf.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_gt_sf.o) (__fpcmp_parts_f)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clz.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clzsi2.o) (__clz_tab)
+/usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcmp.o)
+                              simpliciti/Components/nwk/nwk.o (memcmp)
+/usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+                              logic/stopwatch.o (memcpy)
+/usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memmove.o)
+                              simpliciti/Components/nwk/nwk.o (memmove)
+/usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+                              simpliciti/Components/mrfi/mrfi.o (memset)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/crt0ivtbl64.o (_reset_vector__)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o) (__watchdog_support)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o) (__init_stack)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__low_level_init.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o) (__low_level_init)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o) (__do_copy_data)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o) (__do_clear_bss)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__stop_progExec__.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o) (__stop_progExec__)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o) (_endless_loop__)
+/usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+                              /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/crt0ivtbl64.o (_unexpected_)
+
+Allocating common symbols
+Common symbol       size              file
+
+simpliciti_ed_address
+                    0x4               logic/rfsimpliciti.o
+sStopwatch          0xe               logic/stopwatch.o
+rfBSL_button_confirmation
+                    0x1               logic/rfbsl.o
+sBuzzer             0x8               driver/buzzer.o
+simpliciti_flag     0x1               logic/rfsimpliciti.o
+p                   0x44              driver/ps.o
+fptr_lcd_function_line2
+                    0x2               main.o
+chronos_black       0x1               main.o
+sBatt               0x6               logic/battery.o
+sTime               0xe               logic/clock.o
+burst_packet_index  0x1               logic/rfsimpliciti.o
+sRFsmpl             0x6               logic/rfsimpliciti.o
+sys                 0x2               main.o
+ps_ok               0x1               driver/ps.o
+sAlarm              0x4               logic/alarm.o
+sTemp               0x6               logic/temperature.o
+rf_frequoffset      0x1               main.o
+display             0x2               driver/display.o
+button              0x2               driver/ports.o
+message             0x2               main.o
+bmp_used            0x1               main.o
+adc12_data_ready    0x1               driver/adc12.o
+request             0x2               main.o
+adc12_result        0x2               driver/adc12.o
+bmp_param_b5        0x4               driver/bmp_ps.o
+bmp_cal_param       0x16              driver/bmp_ps.o
+sDate               0x6               logic/date.o
+fptr_lcd_function_line1
+                    0x2               main.o
+simpliciti_data     0x20              logic/rfsimpliciti.o
+simpliciti_payload_length
+                    0x1               logic/rfsimpliciti.o
+sButton             0x6               driver/ports.o
+int_to_array_str    0x8               driver/display.o
+burst_start         0x2               logic/rfsimpliciti.o
+burst_end           0x2               logic/rfsimpliciti.o
+fptr_Timer0_A3_function
+                    0x2               driver/timer.o
+simpliciti_reply_count
+                    0x1               logic/rfsimpliciti.o
+as_ok               0x1               driver/as.o
+sAlt                0xe               logic/altitude.o
+sAccel              0xa               logic/acceleration.o
+burst_packet        0x12              logic/rfsimpliciti.o
+burst_mode          0x1               logic/rfsimpliciti.o
+sTimer              0x2               driver/timer.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sfr              0x0000000000000000 0x0000000000000010
+peripheral_8bit  0x0000000000000010 0x00000000000000f0
+peripheral_16bit 0x0000000000000100 0x0000000000000100
+bsl              0x0000000000001000 0x0000000000000800
+infomem          0x0000000000001800 0x0000000000000200
+infod            0x0000000000001800 0x0000000000000080
+infoc            0x0000000000001880 0x0000000000000080
+infob            0x0000000000001900 0x0000000000000080
+infoa            0x0000000000001980 0x0000000000000080
+ram              0x0000000000001c00 0x0000000000000ffe xw
+rom              0x0000000000008000 0x0000000000007f80 xr
+vectors          0x000000000000ff80 0x0000000000000080
+ram2             0x0000000000000000 0x0000000000000000 xw
+ram_mirror       0x0000000000000000 0x0000000000000000 xw
+usbram           0x0000000000000000 0x0000000000000000 xw
+far_rom          0x0000000000000000 0x0000000000000000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/crt0ivtbl64.o
+LOAD logic/acceleration.o
+LOAD logic/alarm.o
+LOAD logic/altitude.o
+LOAD logic/battery.o
+LOAD logic/clock.o
+LOAD logic/date.o
+LOAD logic/menu.o
+LOAD logic/rfbsl.o
+LOAD logic/rfsimpliciti.o
+LOAD logic/stopwatch.o
+LOAD logic/temperature.o
+LOAD logic/user.o
+LOAD driver/adc12.o
+LOAD driver/as.o
+LOAD driver/bmp_as.o
+LOAD driver/bmp_ps.o
+LOAD driver/buzzer.o
+LOAD driver/cma_as.o
+LOAD driver/cma_ps.o
+LOAD driver/display.o
+LOAD driver/pmm.o
+LOAD driver/ports.o
+LOAD driver/ps.o
+LOAD driver/radio.o
+LOAD driver/rf1a.o
+LOAD driver/timer.o
+LOAD simpliciti/Applications/application/End_Device/main_ED_BM.o
+LOAD simpliciti/Components/bsp/bsp.o
+LOAD simpliciti/Components/mrfi/mrfi.o
+LOAD simpliciti/Components/nwk/nwk.o
+LOAD simpliciti/Components/nwk/nwk_api.o
+LOAD simpliciti/Components/nwk/nwk_frame.o
+LOAD simpliciti/Components/nwk/nwk_globals.o
+LOAD simpliciti/Components/nwk/nwk_QMgmt.o
+LOAD simpliciti/Components/nwk_applications/nwk_freq.o
+LOAD simpliciti/Components/nwk_applications/nwk_ioctl.o
+LOAD simpliciti/Components/nwk_applications/nwk_join.o
+LOAD simpliciti/Components/nwk_applications/nwk_link.o
+LOAD simpliciti/Components/nwk_applications/nwk_mgmt.o
+LOAD simpliciti/Components/nwk_applications/nwk_ping.o
+LOAD simpliciti/Components/nwk_applications/nwk_security.o
+LOAD main.o
+LOAD even_in_range.o
+LOAD /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a
+LOAD /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a
+LOAD /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a
+LOAD /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a
+                0x0000000000000080                PROVIDE (__info_segment_size, 0x80)
+                0x0000000000001800                PROVIDE (__infod, 0x1800)
+                0x0000000000001880                PROVIDE (__infoc, 0x1880)
+                0x0000000000001900                PROVIDE (__infob, 0x1900)
+                0x0000000000001980                PROVIDE (__infoa, 0x1980)
+                0x0000000000000700                __ADC12CTL0_L = 0x700
+                0x0000000000000701                __ADC12CTL0_H = 0x701
+                0x0000000000000700                __ADC12CTL0 = 0x700
+                0x0000000000000702                __ADC12CTL1_L = 0x702
+                0x0000000000000703                __ADC12CTL1_H = 0x703
+                0x0000000000000702                __ADC12CTL1 = 0x702
+                0x0000000000000704                __ADC12CTL2_L = 0x704
+                0x0000000000000705                __ADC12CTL2_H = 0x705
+                0x0000000000000704                __ADC12CTL2 = 0x704
+                0x000000000000070a                __ADC12IFG_L = 0x70a
+                0x000000000000070b                __ADC12IFG_H = 0x70b
+                0x000000000000070a                __ADC12IFG = 0x70a
+                0x000000000000070c                __ADC12IE_L = 0x70c
+                0x000000000000070d                __ADC12IE_H = 0x70d
+                0x000000000000070c                __ADC12IE = 0x70c
+                0x000000000000070e                __ADC12IV_L = 0x70e
+                0x000000000000070f                __ADC12IV_H = 0x70f
+                0x000000000000070e                __ADC12IV = 0x70e
+                0x0000000000000720                __ADC12MEM0_L = 0x720
+                0x0000000000000721                __ADC12MEM0_H = 0x721
+                0x0000000000000720                __ADC12MEM0 = 0x720
+                0x0000000000000722                __ADC12MEM1_L = 0x722
+                0x0000000000000723                __ADC12MEM1_H = 0x723
+                0x0000000000000722                __ADC12MEM1 = 0x722
+                0x0000000000000724                __ADC12MEM2_L = 0x724
+                0x0000000000000725                __ADC12MEM2_H = 0x725
+                0x0000000000000724                __ADC12MEM2 = 0x724
+                0x0000000000000726                __ADC12MEM3_L = 0x726
+                0x0000000000000727                __ADC12MEM3_H = 0x727
+                0x0000000000000726                __ADC12MEM3 = 0x726
+                0x0000000000000728                __ADC12MEM4_L = 0x728
+                0x0000000000000729                __ADC12MEM4_H = 0x729
+                0x0000000000000728                __ADC12MEM4 = 0x728
+                0x000000000000072a                __ADC12MEM5_L = 0x72a
+                0x000000000000072b                __ADC12MEM5_H = 0x72b
+                0x000000000000072a                __ADC12MEM5 = 0x72a
+                0x000000000000072c                __ADC12MEM6_L = 0x72c
+                0x000000000000072d                __ADC12MEM6_H = 0x72d
+                0x000000000000072c                __ADC12MEM6 = 0x72c
+                0x000000000000072e                __ADC12MEM7_L = 0x72e
+                0x000000000000072f                __ADC12MEM7_H = 0x72f
+                0x000000000000072e                __ADC12MEM7 = 0x72e
+                0x0000000000000730                __ADC12MEM8_L = 0x730
+                0x0000000000000731                __ADC12MEM8_H = 0x731
+                0x0000000000000730                __ADC12MEM8 = 0x730
+                0x0000000000000732                __ADC12MEM9_L = 0x732
+                0x0000000000000733                __ADC12MEM9_H = 0x733
+                0x0000000000000732                __ADC12MEM9 = 0x732
+                0x0000000000000734                __ADC12MEM10_L = 0x734
+                0x0000000000000735                __ADC12MEM10_H = 0x735
+                0x0000000000000734                __ADC12MEM10 = 0x734
+                0x0000000000000736                __ADC12MEM11_L = 0x736
+                0x0000000000000737                __ADC12MEM11_H = 0x737
+                0x0000000000000736                __ADC12MEM11 = 0x736
+                0x0000000000000738                __ADC12MEM12_L = 0x738
+                0x0000000000000739                __ADC12MEM12_H = 0x739
+                0x0000000000000738                __ADC12MEM12 = 0x738
+                0x000000000000073a                __ADC12MEM13_L = 0x73a
+                0x000000000000073b                __ADC12MEM13_H = 0x73b
+                0x000000000000073a                __ADC12MEM13 = 0x73a
+                0x000000000000073c                __ADC12MEM14_L = 0x73c
+                0x000000000000073d                __ADC12MEM14_H = 0x73d
+                0x000000000000073c                __ADC12MEM14 = 0x73c
+                0x000000000000073e                __ADC12MEM15_L = 0x73e
+                0x000000000000073f                __ADC12MEM15_H = 0x73f
+                0x000000000000073e                __ADC12MEM15 = 0x73e
+                0x0000000000000710                __ADC12MCTL0 = 0x710
+                0x0000000000000711                __ADC12MCTL1 = 0x711
+                0x0000000000000712                __ADC12MCTL2 = 0x712
+                0x0000000000000713                __ADC12MCTL3 = 0x713
+                0x0000000000000714                __ADC12MCTL4 = 0x714
+                0x0000000000000715                __ADC12MCTL5 = 0x715
+                0x0000000000000716                __ADC12MCTL6 = 0x716
+                0x0000000000000717                __ADC12MCTL7 = 0x717
+                0x0000000000000718                __ADC12MCTL8 = 0x718
+                0x0000000000000719                __ADC12MCTL9 = 0x719
+                0x000000000000071a                __ADC12MCTL10 = 0x71a
+                0x000000000000071b                __ADC12MCTL11 = 0x71b
+                0x000000000000071c                __ADC12MCTL12 = 0x71c
+                0x000000000000071d                __ADC12MCTL13 = 0x71d
+                0x000000000000071e                __ADC12MCTL14 = 0x71e
+                0x000000000000071f                __ADC12MCTL15 = 0x71f
+                0x00000000000009c0                __AESACTL0_L = 0x9c0
+                0x00000000000009c1                __AESACTL0_H = 0x9c1
+                0x00000000000009c0                __AESACTL0 = 0x9c0
+                0x00000000000009c4                __AESASTAT_L = 0x9c4
+                0x00000000000009c5                __AESASTAT_H = 0x9c5
+                0x00000000000009c4                __AESASTAT = 0x9c4
+                0x00000000000009c6                __AESAKEY_L = 0x9c6
+                0x00000000000009c7                __AESAKEY_H = 0x9c7
+                0x00000000000009c6                __AESAKEY = 0x9c6
+                0x00000000000009c8                __AESADIN_L = 0x9c8
+                0x00000000000009c9                __AESADIN_H = 0x9c9
+                0x00000000000009c8                __AESADIN = 0x9c8
+                0x00000000000009ca                __AESADOUT_L = 0x9ca
+                0x00000000000009cb                __AESADOUT_H = 0x9cb
+                0x00000000000009ca                __AESADOUT = 0x9ca
+                0x00000000000008c0                __CBCTL0_L = 0x8c0
+                0x00000000000008c1                __CBCTL0_H = 0x8c1
+                0x00000000000008c0                __CBCTL0 = 0x8c0
+                0x00000000000008c2                __CBCTL1_L = 0x8c2
+                0x00000000000008c3                __CBCTL1_H = 0x8c3
+                0x00000000000008c2                __CBCTL1 = 0x8c2
+                0x00000000000008c4                __CBCTL2_L = 0x8c4
+                0x00000000000008c5                __CBCTL2_H = 0x8c5
+                0x00000000000008c4                __CBCTL2 = 0x8c4
+                0x00000000000008c6                __CBCTL3_L = 0x8c6
+                0x00000000000008c7                __CBCTL3_H = 0x8c7
+                0x00000000000008c6                __CBCTL3 = 0x8c6
+                0x00000000000008cc                __CBINT_L = 0x8cc
+                0x00000000000008cd                __CBINT_H = 0x8cd
+                0x00000000000008cc                __CBINT = 0x8cc
+                0x00000000000008ce                __CBIV = 0x8ce
+                0x0000000000000f00                __RF1AIFCTL0_L = 0xf00
+                0x0000000000000f01                __RF1AIFCTL0_H = 0xf01
+                0x0000000000000f00                __RF1AIFCTL0 = 0xf00
+                0x0000000000000f02                __RF1AIFCTL1_L = 0xf02
+                0x0000000000000f03                __RF1AIFCTL1_H = 0xf03
+                0x0000000000000f02                __RF1AIFCTL1 = 0xf02
+                0x0000000000000f04                __RF1AIFCTL2_L = 0xf04
+                0x0000000000000f05                __RF1AIFCTL2_H = 0xf05
+                0x0000000000000f04                __RF1AIFCTL2 = 0xf04
+                0x0000000000000f06                __RF1AIFERR_L = 0xf06
+                0x0000000000000f07                __RF1AIFERR_H = 0xf07
+                0x0000000000000f06                __RF1AIFERR = 0xf06
+                0x0000000000000f0c                __RF1AIFERRV_L = 0xf0c
+                0x0000000000000f0d                __RF1AIFERRV_H = 0xf0d
+                0x0000000000000f0c                __RF1AIFERRV = 0xf0c
+                0x0000000000000f0e                __RF1AIFIV_L = 0xf0e
+                0x0000000000000f0f                __RF1AIFIV_H = 0xf0f
+                0x0000000000000f0e                __RF1AIFIV = 0xf0e
+                0x0000000000000f10                __RF1AINSTRW_L = 0xf10
+                0x0000000000000f11                __RF1AINSTRW_H = 0xf11
+                0x0000000000000f10                __RF1AINSTRW = 0xf10
+                0x0000000000000f12                __RF1AINSTR1W_L = 0xf12
+                0x0000000000000f13                __RF1AINSTR1W_H = 0xf13
+                0x0000000000000f12                __RF1AINSTR1W = 0xf12
+                0x0000000000000f14                __RF1AINSTR2W_L = 0xf14
+                0x0000000000000f15                __RF1AINSTR2W_H = 0xf15
+                0x0000000000000f14                __RF1AINSTR2W = 0xf14
+                0x0000000000000f16                __RF1ADINW_L = 0xf16
+                0x0000000000000f17                __RF1ADINW_H = 0xf17
+                0x0000000000000f16                __RF1ADINW = 0xf16
+                0x0000000000000f20                __RF1ASTAT0W_L = 0xf20
+                0x0000000000000f21                __RF1ASTAT0W_H = 0xf21
+                0x0000000000000f20                __RF1ASTAT0W = 0xf20
+                0x0000000000000f22                __RF1ASTAT1W_L = 0xf22
+                0x0000000000000f23                __RF1ASTAT1W_H = 0xf23
+                0x0000000000000f22                __RF1ASTAT1W = 0xf22
+                0x0000000000000f24                __RF1ASTAT2W_L = 0xf24
+                0x0000000000000f25                __RF1ASTAT2W_H = 0xf25
+                0x0000000000000f24                __RF1ASTAT2W = 0xf24
+                0x0000000000000f28                __RF1ADOUT0W_L = 0xf28
+                0x0000000000000f29                __RF1ADOUT0W_H = 0xf29
+                0x0000000000000f28                __RF1ADOUT0W = 0xf28
+                0x0000000000000f2a                __RF1ADOUT1W_L = 0xf2a
+                0x0000000000000f2b                __RF1ADOUT1W_H = 0xf2b
+                0x0000000000000f2a                __RF1ADOUT1W = 0xf2a
+                0x0000000000000f2c                __RF1ADOUT2W_L = 0xf2c
+                0x0000000000000f2d                __RF1ADOUT2W_H = 0xf2d
+                0x0000000000000f2c                __RF1ADOUT2W = 0xf2c
+                0x0000000000000f30                __RF1AIN_L = 0xf30
+                0x0000000000000f31                __RF1AIN_H = 0xf31
+                0x0000000000000f30                __RF1AIN = 0xf30
+                0x0000000000000f32                __RF1AIFG_L = 0xf32
+                0x0000000000000f33                __RF1AIFG_H = 0xf33
+                0x0000000000000f32                __RF1AIFG = 0xf32
+                0x0000000000000f34                __RF1AIES_L = 0xf34
+                0x0000000000000f35                __RF1AIES_H = 0xf35
+                0x0000000000000f34                __RF1AIES = 0xf34
+                0x0000000000000f36                __RF1AIE_L = 0xf36
+                0x0000000000000f37                __RF1AIE_H = 0xf37
+                0x0000000000000f36                __RF1AIE = 0xf36
+                0x0000000000000f38                __RF1AIV_L = 0xf38
+                0x0000000000000f39                __RF1AIV_H = 0xf39
+                0x0000000000000f38                __RF1AIV = 0xf38
+                0x0000000000000f3c                __RF1ARXFIFO_L = 0xf3c
+                0x0000000000000f3d                __RF1ARXFIFO_H = 0xf3d
+                0x0000000000000f3c                __RF1ARXFIFO = 0xf3c
+                0x0000000000000f3e                __RF1ATXFIFO_L = 0xf3e
+                0x0000000000000f3f                __RF1ATXFIFO_H = 0xf3f
+                0x0000000000000f3e                __RF1ATXFIFO = 0xf3e
+                0x0000000000000150                __CRCDI_L = 0x150
+                0x0000000000000151                __CRCDI_H = 0x151
+                0x0000000000000150                __CRCDI = 0x150
+                0x0000000000000152                __CRCDIRB_L = 0x152
+                0x0000000000000153                __CRCDIRB_H = 0x153
+                0x0000000000000152                __CRCDIRB = 0x152
+                0x0000000000000154                __CRCINIRES_L = 0x154
+                0x0000000000000155                __CRCINIRES_H = 0x155
+                0x0000000000000154                __CRCINIRES = 0x154
+                0x0000000000000156                __CRCRESR_L = 0x156
+                0x0000000000000157                __CRCRESR_H = 0x157
+                0x0000000000000156                __CRCRESR = 0x156
+                0x0000000000000500                __DMACTL0_L = 0x500
+                0x0000000000000501                __DMACTL0_H = 0x501
+                0x0000000000000500                __DMACTL0 = 0x500
+                0x0000000000000502                __DMACTL1_L = 0x502
+                0x0000000000000503                __DMACTL1_H = 0x503
+                0x0000000000000502                __DMACTL1 = 0x502
+                0x0000000000000504                __DMACTL2_L = 0x504
+                0x0000000000000505                __DMACTL2_H = 0x505
+                0x0000000000000504                __DMACTL2 = 0x504
+                0x0000000000000506                __DMACTL3_L = 0x506
+                0x0000000000000507                __DMACTL3_H = 0x507
+                0x0000000000000506                __DMACTL3 = 0x506
+                0x0000000000000508                __DMACTL4_L = 0x508
+                0x0000000000000509                __DMACTL4_H = 0x509
+                0x0000000000000508                __DMACTL4 = 0x508
+                0x000000000000050e                __DMAIV_L = 0x50e
+                0x000000000000050f                __DMAIV_H = 0x50f
+                0x000000000000050e                __DMAIV = 0x50e
+                0x0000000000000510                __DMA0CTL_L = 0x510
+                0x0000000000000511                __DMA0CTL_H = 0x511
+                0x0000000000000510                __DMA0CTL = 0x510
+                0x0000000000000512                __DMA0SA = 0x512
+                0x0000000000000516                __DMA0DA = 0x516
+                0x000000000000051a                __DMA0SZ = 0x51a
+                0x0000000000000520                __DMA1CTL_L = 0x520
+                0x0000000000000521                __DMA1CTL_H = 0x521
+                0x0000000000000520                __DMA1CTL = 0x520
+                0x0000000000000522                __DMA1SA = 0x522
+                0x0000000000000526                __DMA1DA = 0x526
+                0x000000000000052a                __DMA1SZ = 0x52a
+                0x0000000000000530                __DMA2CTL_L = 0x530
+                0x0000000000000531                __DMA2CTL_H = 0x531
+                0x0000000000000530                __DMA2CTL = 0x530
+                0x0000000000000532                __DMA2SA = 0x532
+                0x0000000000000536                __DMA2DA = 0x536
+                0x000000000000053a                __DMA2SZ = 0x53a
+                0x0000000000000140                __FCTL1_L = 0x140
+                0x0000000000000141                __FCTL1_H = 0x141
+                0x0000000000000140                __FCTL1 = 0x140
+                0x0000000000000144                __FCTL3_L = 0x144
+                0x0000000000000145                __FCTL3_H = 0x145
+                0x0000000000000144                __FCTL3 = 0x144
+                0x0000000000000146                __FCTL4_L = 0x146
+                0x0000000000000147                __FCTL4_H = 0x147
+                0x0000000000000146                __FCTL4 = 0x146
+                0x0000000000000a00                __LCDBCTL0_L = 0xa00
+                0x0000000000000a01                __LCDBCTL0_H = 0xa01
+                0x0000000000000a00                __LCDBCTL0 = 0xa00
+                0x0000000000000a02                __LCDBCTL1_L = 0xa02
+                0x0000000000000a03                __LCDBCTL1_H = 0xa03
+                0x0000000000000a02                __LCDBCTL1 = 0xa02
+                0x0000000000000a04                __LCDBBLKCTL_L = 0xa04
+                0x0000000000000a05                __LCDBBLKCTL_H = 0xa05
+                0x0000000000000a04                __LCDBBLKCTL = 0xa04
+                0x0000000000000a06                __LCDBMEMCTL_L = 0xa06
+                0x0000000000000a07                __LCDBMEMCTL_H = 0xa07
+                0x0000000000000a06                __LCDBMEMCTL = 0xa06
+                0x0000000000000a08                __LCDBVCTL_L = 0xa08
+                0x0000000000000a09                __LCDBVCTL_H = 0xa09
+                0x0000000000000a08                __LCDBVCTL = 0xa08
+                0x0000000000000a0a                __LCDBPCTL0_L = 0xa0a
+                0x0000000000000a0b                __LCDBPCTL0_H = 0xa0b
+                0x0000000000000a0a                __LCDBPCTL0 = 0xa0a
+                0x0000000000000a0c                __LCDBPCTL1_L = 0xa0c
+                0x0000000000000a0d                __LCDBPCTL1_H = 0xa0d
+                0x0000000000000a0c                __LCDBPCTL1 = 0xa0c
+                0x0000000000000a0e                __LCDBPCTL2_L = 0xa0e
+                0x0000000000000a0f                __LCDBPCTL2_H = 0xa0f
+                0x0000000000000a0e                __LCDBPCTL2 = 0xa0e
+                0x0000000000000a10                __LCDBPCTL3_L = 0xa10
+                0x0000000000000a11                __LCDBPCTL3_H = 0xa11
+                0x0000000000000a10                __LCDBPCTL3 = 0xa10
+                0x0000000000000a12                __LCDBCPCTL_L = 0xa12
+                0x0000000000000a13                __LCDBCPCTL_H = 0xa13
+                0x0000000000000a12                __LCDBCPCTL = 0xa12
+                0x0000000000000a1e                __LCDBIV = 0xa1e
+                0x0000000000000a20                __LCDM1 = 0xa20
+                0x0000000000000a21                __LCDM2 = 0xa21
+                0x0000000000000a22                __LCDM3 = 0xa22
+                0x0000000000000a23                __LCDM4 = 0xa23
+                0x0000000000000a24                __LCDM5 = 0xa24
+                0x0000000000000a25                __LCDM6 = 0xa25
+                0x0000000000000a26                __LCDM7 = 0xa26
+                0x0000000000000a27                __LCDM8 = 0xa27
+                0x0000000000000a28                __LCDM9 = 0xa28
+                0x0000000000000a29                __LCDM10 = 0xa29
+                0x0000000000000a2a                __LCDM11 = 0xa2a
+                0x0000000000000a2b                __LCDM12 = 0xa2b
+                0x0000000000000a2c                __LCDM13 = 0xa2c
+                0x0000000000000a2d                __LCDM14 = 0xa2d
+                0x0000000000000a2e                __LCDM15 = 0xa2e
+                0x0000000000000a2f                __LCDM16 = 0xa2f
+                0x0000000000000a30                __LCDM17 = 0xa30
+                0x0000000000000a31                __LCDM18 = 0xa31
+                0x0000000000000a32                __LCDM19 = 0xa32
+                0x0000000000000a33                __LCDM20 = 0xa33
+                0x0000000000000a34                __LCDM21 = 0xa34
+                0x0000000000000a35                __LCDM22 = 0xa35
+                0x0000000000000a36                __LCDM23 = 0xa36
+                0x0000000000000a37                __LCDM24 = 0xa37
+                0x0000000000000a40                __LCDBM1 = 0xa40
+                0x0000000000000a41                __LCDBM2 = 0xa41
+                0x0000000000000a42                __LCDBM3 = 0xa42
+                0x0000000000000a43                __LCDBM4 = 0xa43
+                0x0000000000000a44                __LCDBM5 = 0xa44
+                0x0000000000000a45                __LCDBM6 = 0xa45
+                0x0000000000000a46                __LCDBM7 = 0xa46
+                0x0000000000000a47                __LCDBM8 = 0xa47
+                0x0000000000000a48                __LCDBM9 = 0xa48
+                0x0000000000000a49                __LCDBM10 = 0xa49
+                0x0000000000000a4a                __LCDBM11 = 0xa4a
+                0x0000000000000a4b                __LCDBM12 = 0xa4b
+                0x0000000000000a4c                __LCDBM13 = 0xa4c
+                0x0000000000000a4d                __LCDBM14 = 0xa4d
+                0x0000000000000a4e                __LCDBM15 = 0xa4e
+                0x0000000000000a4f                __LCDBM16 = 0xa4f
+                0x0000000000000a50                __LCDBM17 = 0xa50
+                0x0000000000000a51                __LCDBM18 = 0xa51
+                0x0000000000000a52                __LCDBM19 = 0xa52
+                0x0000000000000a53                __LCDBM20 = 0xa53
+                0x0000000000000a54                __LCDBM21 = 0xa54
+                0x0000000000000a55                __LCDBM22 = 0xa55
+                0x0000000000000a56                __LCDBM23 = 0xa56
+                0x0000000000000a57                __LCDBM24 = 0xa57
+                0x00000000000004c0                __MPY_L = 0x4c0
+                0x00000000000004c1                __MPY_H = 0x4c1
+                0x00000000000004c0                __MPY = 0x4c0
+                0x00000000000004c2                __MPYS_L = 0x4c2
+                0x00000000000004c3                __MPYS_H = 0x4c3
+                0x00000000000004c2                __MPYS = 0x4c2
+                0x00000000000004c4                __MAC_L = 0x4c4
+                0x00000000000004c5                __MAC_H = 0x4c5
+                0x00000000000004c4                __MAC = 0x4c4
+                0x00000000000004c6                __MACS_L = 0x4c6
+                0x00000000000004c7                __MACS_H = 0x4c7
+                0x00000000000004c6                __MACS = 0x4c6
+                0x00000000000004c8                __OP2_L = 0x4c8
+                0x00000000000004c9                __OP2_H = 0x4c9
+                0x00000000000004c8                __OP2 = 0x4c8
+                0x00000000000004ca                __RESLO_L = 0x4ca
+                0x00000000000004cb                __RESLO_H = 0x4cb
+                0x00000000000004ca                __RESLO = 0x4ca
+                0x00000000000004cc                __RESHI_L = 0x4cc
+                0x00000000000004cd                __RESHI_H = 0x4cd
+                0x00000000000004cc                __RESHI = 0x4cc
+                0x00000000000004ce                __SUMEXT_L = 0x4ce
+                0x00000000000004cf                __SUMEXT_H = 0x4cf
+                0x00000000000004ce                __SUMEXT = 0x4ce
+                0x00000000000004d0                __MPY32L_L = 0x4d0
+                0x00000000000004d1                __MPY32L_H = 0x4d1
+                0x00000000000004d0                __MPY32L = 0x4d0
+                0x00000000000004d2                __MPY32H_L = 0x4d2
+                0x00000000000004d3                __MPY32H_H = 0x4d3
+                0x00000000000004d2                __MPY32H = 0x4d2
+                0x00000000000004d4                __MPYS32L_L = 0x4d4
+                0x00000000000004d5                __MPYS32L_H = 0x4d5
+                0x00000000000004d4                __MPYS32L = 0x4d4
+                0x00000000000004d6                __MPYS32H_L = 0x4d6
+                0x00000000000004d7                __MPYS32H_H = 0x4d7
+                0x00000000000004d6                __MPYS32H = 0x4d6
+                0x00000000000004d8                __MAC32L_L = 0x4d8
+                0x00000000000004d9                __MAC32L_H = 0x4d9
+                0x00000000000004d8                __MAC32L = 0x4d8
+                0x00000000000004da                __MAC32H_L = 0x4da
+                0x00000000000004db                __MAC32H_H = 0x4db
+                0x00000000000004da                __MAC32H = 0x4da
+                0x00000000000004dc                __MACS32L_L = 0x4dc
+                0x00000000000004dd                __MACS32L_H = 0x4dd
+                0x00000000000004dc                __MACS32L = 0x4dc
+                0x00000000000004de                __MACS32H_L = 0x4de
+                0x00000000000004df                __MACS32H_H = 0x4df
+                0x00000000000004de                __MACS32H = 0x4de
+                0x00000000000004e0                __OP2L_L = 0x4e0
+                0x00000000000004e1                __OP2L_H = 0x4e1
+                0x00000000000004e0                __OP2L = 0x4e0
+                0x00000000000004e2                __OP2H_L = 0x4e2
+                0x00000000000004e3                __OP2H_H = 0x4e3
+                0x00000000000004e2                __OP2H = 0x4e2
+                0x00000000000004e4                __RES0_L = 0x4e4
+                0x00000000000004e5                __RES0_H = 0x4e5
+                0x00000000000004e4                __RES0 = 0x4e4
+                0x00000000000004e6                __RES1_L = 0x4e6
+                0x00000000000004e7                __RES1_H = 0x4e7
+                0x00000000000004e6                __RES1 = 0x4e6
+                0x00000000000004e8                __RES2_L = 0x4e8
+                0x00000000000004e9                __RES2_H = 0x4e9
+                0x00000000000004e8                __RES2 = 0x4e8
+                0x00000000000004ea                __RES3_L = 0x4ea
+                0x00000000000004eb                __RES3_H = 0x4eb
+                0x00000000000004ea                __RES3 = 0x4ea
+                0x00000000000004ec                __MPY32CTL0_L = 0x4ec
+                0x00000000000004ed                __MPY32CTL0_H = 0x4ed
+                0x00000000000004ec                __MPY32CTL0 = 0x4ec
+                0x0000000000000200                __PAIN_L = 0x200
+                0x0000000000000201                __PAIN_H = 0x201
+                0x0000000000000200                __PAIN = 0x200
+                0x0000000000000202                __PAOUT_L = 0x202
+                0x0000000000000203                __PAOUT_H = 0x203
+                0x0000000000000202                __PAOUT = 0x202
+                0x0000000000000204                __PADIR_L = 0x204
+                0x0000000000000205                __PADIR_H = 0x205
+                0x0000000000000204                __PADIR = 0x204
+                0x0000000000000206                __PAREN_L = 0x206
+                0x0000000000000207                __PAREN_H = 0x207
+                0x0000000000000206                __PAREN = 0x206
+                0x0000000000000208                __PADS_L = 0x208
+                0x0000000000000209                __PADS_H = 0x209
+                0x0000000000000208                __PADS = 0x208
+                0x000000000000020a                __PASEL_L = 0x20a
+                0x000000000000020b                __PASEL_H = 0x20b
+                0x000000000000020a                __PASEL = 0x20a
+                0x0000000000000218                __PAIES_L = 0x218
+                0x0000000000000219                __PAIES_H = 0x219
+                0x0000000000000218                __PAIES = 0x218
+                0x000000000000021a                __PAIE_L = 0x21a
+                0x000000000000021b                __PAIE_H = 0x21b
+                0x000000000000021a                __PAIE = 0x21a
+                0x000000000000021c                __PAIFG_L = 0x21c
+                0x000000000000021d                __PAIFG_H = 0x21d
+                0x000000000000021c                __PAIFG = 0x21c
+                0x000000000000020e                __P1IV = 0x20e
+                0x000000000000021e                __P2IV = 0x21e
+                0x0000000000000220                __PBIN_L = 0x220
+                0x0000000000000221                __PBIN_H = 0x221
+                0x0000000000000220                __PBIN = 0x220
+                0x0000000000000222                __PBOUT_L = 0x222
+                0x0000000000000223                __PBOUT_H = 0x223
+                0x0000000000000222                __PBOUT = 0x222
+                0x0000000000000224                __PBDIR_L = 0x224
+                0x0000000000000225                __PBDIR_H = 0x225
+                0x0000000000000224                __PBDIR = 0x224
+                0x0000000000000226                __PBREN_L = 0x226
+                0x0000000000000227                __PBREN_H = 0x227
+                0x0000000000000226                __PBREN = 0x226
+                0x0000000000000228                __PBDS_L = 0x228
+                0x0000000000000229                __PBDS_H = 0x229
+                0x0000000000000228                __PBDS = 0x228
+                0x000000000000022a                __PBSEL_L = 0x22a
+                0x000000000000022b                __PBSEL_H = 0x22b
+                0x000000000000022a                __PBSEL = 0x22a
+                0x0000000000000240                __PCIN_L = 0x240
+                0x0000000000000241                __PCIN_H = 0x241
+                0x0000000000000240                __PCIN = 0x240
+                0x0000000000000242                __PCOUT_L = 0x242
+                0x0000000000000243                __PCOUT_H = 0x243
+                0x0000000000000242                __PCOUT = 0x242
+                0x0000000000000244                __PCDIR_L = 0x244
+                0x0000000000000245                __PCDIR_H = 0x245
+                0x0000000000000244                __PCDIR = 0x244
+                0x0000000000000246                __PCREN_L = 0x246
+                0x0000000000000247                __PCREN_H = 0x247
+                0x0000000000000246                __PCREN = 0x246
+                0x0000000000000248                __PCDS_L = 0x248
+                0x0000000000000249                __PCDS_H = 0x249
+                0x0000000000000248                __PCDS = 0x248
+                0x000000000000024a                __PCSEL_L = 0x24a
+                0x000000000000024b                __PCSEL_H = 0x24b
+                0x000000000000024a                __PCSEL = 0x24a
+                0x0000000000000320                __PJIN_L = 0x320
+                0x0000000000000321                __PJIN_H = 0x321
+                0x0000000000000320                __PJIN = 0x320
+                0x0000000000000322                __PJOUT_L = 0x322
+                0x0000000000000323                __PJOUT_H = 0x323
+                0x0000000000000322                __PJOUT = 0x322
+                0x0000000000000324                __PJDIR_L = 0x324
+                0x0000000000000325                __PJDIR_H = 0x325
+                0x0000000000000324                __PJDIR = 0x324
+                0x0000000000000326                __PJREN_L = 0x326
+                0x0000000000000327                __PJREN_H = 0x327
+                0x0000000000000326                __PJREN = 0x326
+                0x0000000000000328                __PJDS_L = 0x328
+                0x0000000000000329                __PJDS_H = 0x329
+                0x0000000000000328                __PJDS = 0x328
+                0x00000000000001c0                __PMAPKEYID_L = 0x1c0
+                0x00000000000001c1                __PMAPKEYID_H = 0x1c1
+                0x00000000000001c0                __PMAPKEYID = 0x1c0
+                0x00000000000001c2                __PMAPCTL_L = 0x1c2
+                0x00000000000001c3                __PMAPCTL_H = 0x1c3
+                0x00000000000001c2                __PMAPCTL = 0x1c2
+                0x00000000000001c8                __P1MAP01_L = 0x1c8
+                0x00000000000001c9                __P1MAP01_H = 0x1c9
+                0x00000000000001c8                __P1MAP01 = 0x1c8
+                0x00000000000001ca                __P1MAP23_L = 0x1ca
+                0x00000000000001cb                __P1MAP23_H = 0x1cb
+                0x00000000000001ca                __P1MAP23 = 0x1ca
+                0x00000000000001cc                __P1MAP45_L = 0x1cc
+                0x00000000000001cd                __P1MAP45_H = 0x1cd
+                0x00000000000001cc                __P1MAP45 = 0x1cc
+                0x00000000000001ce                __P1MAP67_L = 0x1ce
+                0x00000000000001cf                __P1MAP67_H = 0x1cf
+                0x00000000000001ce                __P1MAP67 = 0x1ce
+                0x00000000000001d0                __P2MAP01_L = 0x1d0
+                0x00000000000001d1                __P2MAP01_H = 0x1d1
+                0x00000000000001d0                __P2MAP01 = 0x1d0
+                0x00000000000001d2                __P2MAP23_L = 0x1d2
+                0x00000000000001d3                __P2MAP23_H = 0x1d3
+                0x00000000000001d2                __P2MAP23 = 0x1d2
+                0x00000000000001d4                __P2MAP45_L = 0x1d4
+                0x00000000000001d5                __P2MAP45_H = 0x1d5
+                0x00000000000001d4                __P2MAP45 = 0x1d4
+                0x00000000000001d6                __P2MAP67_L = 0x1d6
+                0x00000000000001d7                __P2MAP67_H = 0x1d7
+                0x00000000000001d6                __P2MAP67 = 0x1d6
+                0x00000000000001d8                __P3MAP01_L = 0x1d8
+                0x00000000000001d9                __P3MAP01_H = 0x1d9
+                0x00000000000001d8                __P3MAP01 = 0x1d8
+                0x00000000000001da                __P3MAP23_L = 0x1da
+                0x00000000000001db                __P3MAP23_H = 0x1db
+                0x00000000000001da                __P3MAP23 = 0x1da
+                0x00000000000001dc                __P3MAP45_L = 0x1dc
+                0x00000000000001dd                __P3MAP45_H = 0x1dd
+                0x00000000000001dc                __P3MAP45 = 0x1dc
+                0x00000000000001de                __P3MAP67_L = 0x1de
+                0x00000000000001df                __P3MAP67_H = 0x1df
+                0x00000000000001de                __P3MAP67 = 0x1de
+                0x0000000000000120                __PMMCTL0_L = 0x120
+                0x0000000000000121                __PMMCTL0_H = 0x121
+                0x0000000000000120                __PMMCTL0 = 0x120
+                0x0000000000000122                __PMMCTL1_L = 0x122
+                0x0000000000000123                __PMMCTL1_H = 0x123
+                0x0000000000000122                __PMMCTL1 = 0x122
+                0x0000000000000124                __SVSMHCTL_L = 0x124
+                0x0000000000000125                __SVSMHCTL_H = 0x125
+                0x0000000000000124                __SVSMHCTL = 0x124
+                0x0000000000000126                __SVSMLCTL_L = 0x126
+                0x0000000000000127                __SVSMLCTL_H = 0x127
+                0x0000000000000126                __SVSMLCTL = 0x126
+                0x0000000000000128                __SVSMIO_L = 0x128
+                0x0000000000000129                __SVSMIO_H = 0x129
+                0x0000000000000128                __SVSMIO = 0x128
+                0x000000000000012c                __PMMIFG_L = 0x12c
+                0x000000000000012d                __PMMIFG_H = 0x12d
+                0x000000000000012c                __PMMIFG = 0x12c
+                0x000000000000012e                __PMMRIE_L = 0x12e
+                0x000000000000012f                __PMMRIE_H = 0x12f
+                0x000000000000012e                __PMMRIE = 0x12e
+                0x0000000000000158                __RCCTL0_L = 0x158
+                0x0000000000000159                __RCCTL0_H = 0x159
+                0x0000000000000158                __RCCTL0 = 0x158
+                0x00000000000001b0                __REFCTL0_L = 0x1b0
+                0x00000000000001b1                __REFCTL0_H = 0x1b1
+                0x00000000000001b0                __REFCTL0 = 0x1b0
+                0x00000000000004a0                __RTCCTL01_L = 0x4a0
+                0x00000000000004a1                __RTCCTL01_H = 0x4a1
+                0x00000000000004a0                __RTCCTL01 = 0x4a0
+                0x00000000000004a2                __RTCCTL23_L = 0x4a2
+                0x00000000000004a3                __RTCCTL23_H = 0x4a3
+                0x00000000000004a2                __RTCCTL23 = 0x4a2
+                0x00000000000004a8                __RTCPS0CTL_L = 0x4a8
+                0x00000000000004a9                __RTCPS0CTL_H = 0x4a9
+                0x00000000000004a8                __RTCPS0CTL = 0x4a8
+                0x00000000000004aa                __RTCPS1CTL_L = 0x4aa
+                0x00000000000004ab                __RTCPS1CTL_H = 0x4ab
+                0x00000000000004aa                __RTCPS1CTL = 0x4aa
+                0x00000000000004ac                __RTCPS_L = 0x4ac
+                0x00000000000004ad                __RTCPS_H = 0x4ad
+                0x00000000000004ac                __RTCPS = 0x4ac
+                0x00000000000004ae                __RTCIV = 0x4ae
+                0x00000000000004b0                __RTCTIM0_L = 0x4b0
+                0x00000000000004b1                __RTCTIM0_H = 0x4b1
+                0x00000000000004b0                __RTCTIM0 = 0x4b0
+                0x00000000000004b2                __RTCTIM1_L = 0x4b2
+                0x00000000000004b3                __RTCTIM1_H = 0x4b3
+                0x00000000000004b2                __RTCTIM1 = 0x4b2
+                0x00000000000004b4                __RTCDATE_L = 0x4b4
+                0x00000000000004b5                __RTCDATE_H = 0x4b5
+                0x00000000000004b4                __RTCDATE = 0x4b4
+                0x00000000000004b6                __RTCYEAR_L = 0x4b6
+                0x00000000000004b7                __RTCYEAR_H = 0x4b7
+                0x00000000000004b6                __RTCYEAR = 0x4b6
+                0x00000000000004b8                __RTCAMINHR_L = 0x4b8
+                0x00000000000004b9                __RTCAMINHR_H = 0x4b9
+                0x00000000000004b8                __RTCAMINHR = 0x4b8
+                0x00000000000004ba                __RTCADOWDAY_L = 0x4ba
+                0x00000000000004bb                __RTCADOWDAY_H = 0x4bb
+                0x00000000000004ba                __RTCADOWDAY = 0x4ba
+                0x0000000000000100                __SFRIE1_L = 0x100
+                0x0000000000000101                __SFRIE1_H = 0x101
+                0x0000000000000100                __SFRIE1 = 0x100
+                0x0000000000000102                __SFRIFG1_L = 0x102
+                0x0000000000000103                __SFRIFG1_H = 0x103
+                0x0000000000000102                __SFRIFG1 = 0x102
+                0x0000000000000104                __SFRRPCR_L = 0x104
+                0x0000000000000105                __SFRRPCR_H = 0x105
+                0x0000000000000104                __SFRRPCR = 0x104
+                0x0000000000000180                __SYSCTL_L = 0x180
+                0x0000000000000181                __SYSCTL_H = 0x181
+                0x0000000000000180                __SYSCTL = 0x180
+                0x0000000000000182                __SYSBSLC_L = 0x182
+                0x0000000000000183                __SYSBSLC_H = 0x183
+                0x0000000000000182                __SYSBSLC = 0x182
+                0x0000000000000186                __SYSJMBC_L = 0x186
+                0x0000000000000187                __SYSJMBC_H = 0x187
+                0x0000000000000186                __SYSJMBC = 0x186
+                0x0000000000000188                __SYSJMBI0_L = 0x188
+                0x0000000000000189                __SYSJMBI0_H = 0x189
+                0x0000000000000188                __SYSJMBI0 = 0x188
+                0x000000000000018a                __SYSJMBI1_L = 0x18a
+                0x000000000000018b                __SYSJMBI1_H = 0x18b
+                0x000000000000018a                __SYSJMBI1 = 0x18a
+                0x000000000000018c                __SYSJMBO0_L = 0x18c
+                0x000000000000018d                __SYSJMBO0_H = 0x18d
+                0x000000000000018c                __SYSJMBO0 = 0x18c
+                0x000000000000018e                __SYSJMBO1_L = 0x18e
+                0x000000000000018f                __SYSJMBO1_H = 0x18f
+                0x000000000000018e                __SYSJMBO1 = 0x18e
+                0x0000000000000198                __SYSBERRIV_L = 0x198
+                0x0000000000000199                __SYSBERRIV_H = 0x199
+                0x0000000000000198                __SYSBERRIV = 0x198
+                0x000000000000019a                __SYSUNIV_L = 0x19a
+                0x000000000000019b                __SYSUNIV_H = 0x19b
+                0x000000000000019a                __SYSUNIV = 0x19a
+                0x000000000000019c                __SYSSNIV_L = 0x19c
+                0x000000000000019d                __SYSSNIV_H = 0x19d
+                0x000000000000019c                __SYSSNIV = 0x19c
+                0x000000000000019e                __SYSRSTIV_L = 0x19e
+                0x000000000000019f                __SYSRSTIV_H = 0x19f
+                0x000000000000019e                __SYSRSTIV = 0x19e
+                0x0000000000000340                __TA0CTL = 0x340
+                0x0000000000000342                __TA0CCTL0 = 0x342
+                0x0000000000000344                __TA0CCTL1 = 0x344
+                0x0000000000000346                __TA0CCTL2 = 0x346
+                0x0000000000000348                __TA0CCTL3 = 0x348
+                0x000000000000034a                __TA0CCTL4 = 0x34a
+                0x0000000000000350                __TA0R = 0x350
+                0x0000000000000352                __TA0CCR0 = 0x352
+                0x0000000000000354                __TA0CCR1 = 0x354
+                0x0000000000000356                __TA0CCR2 = 0x356
+                0x0000000000000358                __TA0CCR3 = 0x358
+                0x000000000000035a                __TA0CCR4 = 0x35a
+                0x000000000000036e                __TA0IV = 0x36e
+                0x0000000000000360                __TA0EX0 = 0x360
+                0x0000000000000380                __TA1CTL = 0x380
+                0x0000000000000382                __TA1CCTL0 = 0x382
+                0x0000000000000384                __TA1CCTL1 = 0x384
+                0x0000000000000386                __TA1CCTL2 = 0x386
+                0x0000000000000390                __TA1R = 0x390
+                0x0000000000000392                __TA1CCR0 = 0x392
+                0x0000000000000394                __TA1CCR1 = 0x394
+                0x0000000000000396                __TA1CCR2 = 0x396
+                0x00000000000003ae                __TA1IV = 0x3ae
+                0x00000000000003a0                __TA1EX0 = 0x3a0
+                0x0000000000000160                __UCSCTL0_L = 0x160
+                0x0000000000000161                __UCSCTL0_H = 0x161
+                0x0000000000000160                __UCSCTL0 = 0x160
+                0x0000000000000162                __UCSCTL1_L = 0x162
+                0x0000000000000163                __UCSCTL1_H = 0x163
+                0x0000000000000162                __UCSCTL1 = 0x162
+                0x0000000000000164                __UCSCTL2_L = 0x164
+                0x0000000000000165                __UCSCTL2_H = 0x165
+                0x0000000000000164                __UCSCTL2 = 0x164
+                0x0000000000000166                __UCSCTL3_L = 0x166
+                0x0000000000000167                __UCSCTL3_H = 0x167
+                0x0000000000000166                __UCSCTL3 = 0x166
+                0x0000000000000168                __UCSCTL4_L = 0x168
+                0x0000000000000169                __UCSCTL4_H = 0x169
+                0x0000000000000168                __UCSCTL4 = 0x168
+                0x000000000000016a                __UCSCTL5_L = 0x16a
+                0x000000000000016b                __UCSCTL5_H = 0x16b
+                0x000000000000016a                __UCSCTL5 = 0x16a
+                0x000000000000016c                __UCSCTL6_L = 0x16c
+                0x000000000000016d                __UCSCTL6_H = 0x16d
+                0x000000000000016c                __UCSCTL6 = 0x16c
+                0x000000000000016e                __UCSCTL7_L = 0x16e
+                0x000000000000016f                __UCSCTL7_H = 0x16f
+                0x000000000000016e                __UCSCTL7 = 0x16e
+                0x0000000000000170                __UCSCTL8_L = 0x170
+                0x0000000000000171                __UCSCTL8_H = 0x171
+                0x0000000000000170                __UCSCTL8 = 0x170
+                0x00000000000005c0                __UCA0CTLW0_L = 0x5c0
+                0x00000000000005c1                __UCA0CTLW0_H = 0x5c1
+                0x00000000000005c0                __UCA0CTLW0 = 0x5c0
+                0x00000000000005c6                __UCA0BRW_L = 0x5c6
+                0x00000000000005c7                __UCA0BRW_H = 0x5c7
+                0x00000000000005c6                __UCA0BRW = 0x5c6
+                0x00000000000005c8                __UCA0MCTL = 0x5c8
+                0x00000000000005ca                __UCA0STAT = 0x5ca
+                0x00000000000005cc                __UCA0RXBUF = 0x5cc
+                0x00000000000005ce                __UCA0TXBUF = 0x5ce
+                0x00000000000005d0                __UCA0ABCTL = 0x5d0
+                0x00000000000005d2                __UCA0IRCTL_L = 0x5d2
+                0x00000000000005d3                __UCA0IRCTL_H = 0x5d3
+                0x00000000000005d2                __UCA0IRCTL = 0x5d2
+                0x00000000000005dc                __UCA0ICTL_L = 0x5dc
+                0x00000000000005dd                __UCA0ICTL_H = 0x5dd
+                0x00000000000005dc                __UCA0ICTL = 0x5dc
+                0x00000000000005de                __UCA0IV = 0x5de
+                0x00000000000005e0                __UCB0CTLW0_L = 0x5e0
+                0x00000000000005e1                __UCB0CTLW0_H = 0x5e1
+                0x00000000000005e0                __UCB0CTLW0 = 0x5e0
+                0x00000000000005e6                __UCB0BRW_L = 0x5e6
+                0x00000000000005e7                __UCB0BRW_H = 0x5e7
+                0x00000000000005e6                __UCB0BRW = 0x5e6
+                0x00000000000005ea                __UCB0STAT = 0x5ea
+                0x00000000000005ec                __UCB0RXBUF = 0x5ec
+                0x00000000000005ee                __UCB0TXBUF = 0x5ee
+                0x00000000000005f0                __UCB0I2COA_L = 0x5f0
+                0x00000000000005f1                __UCB0I2COA_H = 0x5f1
+                0x00000000000005f0                __UCB0I2COA = 0x5f0
+                0x00000000000005f2                __UCB0I2CSA_L = 0x5f2
+                0x00000000000005f3                __UCB0I2CSA_H = 0x5f3
+                0x00000000000005f2                __UCB0I2CSA = 0x5f2
+                0x00000000000005fc                __UCB0ICTL_L = 0x5fc
+                0x00000000000005fd                __UCB0ICTL_H = 0x5fd
+                0x00000000000005fc                __UCB0ICTL = 0x5fc
+                0x00000000000005fe                __UCB0IV = 0x5fe
+                0x000000000000015c                __WDTCTL_L = 0x15c
+                0x000000000000015d                __WDTCTL_H = 0x15d
+                0x000000000000015c                __WDTCTL = 0x15c
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.text
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+
+.rela.text
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+
+.rel.rodata
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+
+.rela.rodata
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+
+.rel.data
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+
+.rela.data
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+
+.rel.bss
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.bss
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000008000     0x74f2
+                0x0000000000008000                . = ALIGN (0x2)
+ *(.init .init.*)
+ *(.init0)
+ .init0         0x0000000000008000        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+                0x0000000000008000                _reset_vector__
+ *(.init1)
+ .init1         0x0000000000008000        0xc /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+                0x0000000000008000                __watchdog_support
+ *(.init2)
+ .init2         0x000000000000800c        0x4 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+                0x000000000000800c                __init_stack
+ *(.init3)
+ .init3         0x0000000000008010        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__low_level_init.o)
+                0x0000000000008010                __low_level_init
+ *(.init4)
+ .init4         0x0000000000008010       0x18 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+                0x0000000000008010                __do_copy_data
+ .init4         0x0000000000008028       0x16 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+                0x0000000000008028                __do_clear_bss
+ *(.init5)
+ *(.init6)
+ *(.init7)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000000000803e       0x3a main.o
+                0x000000000000803e                main
+ *(.fini9)
+ .fini9         0x0000000000008078        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__stop_progExec__.o)
+                0x0000000000008078                __stop_progExec__
+ *(.fini8)
+ *(.fini7)
+ *(.fini6)
+ *(.fini5)
+ *(.fini4)
+ *(.fini3)
+ *(.fini2)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000008078        0x6 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+                0x0000000000008078                _endless_loop__
+ *(.fini .fini.*)
+                0x000000000000807e                . = ALIGN (0x2)
+                0x000000000000807e                __ctors_start = .
+ *(.ctors)
+                0x000000000000807e                __ctors_end = .
+                0x000000000000807e                __dtors_start = .
+ *(.dtors)
+                0x000000000000807e                __dtors_end = .
+                0x000000000000807e                . = ALIGN (0x2)
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x000000000000807e        0x4 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/crt0ivtbl64.o
+                0x000000000000807e                __isr_37
+                0x000000000000807e                __isr_47
+                0x000000000000807e                __isr_51
+                0x000000000000807e                __isr_57
+                0x000000000000807e                __isr_33
+                0x000000000000807e                __isr_32
+                0x000000000000807e                __isr_42
+                0x000000000000807e                __isr_49
+                0x000000000000807e                __isr_59
+                0x000000000000807e                __isr_39
+                0x000000000000807e                __isr_46
+                0x000000000000807e                __isr_41
+                0x000000000000807e                __isr_60
+                0x000000000000807e                __isr_36
+                0x000000000000807e                __isr_34
+                0x000000000000807e                __isr_44
+                0x000000000000807e                __isr_61
+                0x000000000000807e                __isr_43
+                0x000000000000807e                __isr_50
+                0x000000000000807e                __isr_56
+                0x000000000000807e                __isr_38
+                0x000000000000807e                __isr_35
+                0x000000000000807e                __isr_45
+                0x000000000000807e                __isr_58
+                0x000000000000807e                __isr_62
+                0x000000000000807e                __isr_52
+                0x000000000000807e                __isr_40
+ .text.crt0     0x0000000000008082        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/crt0ivtbl64.o
+ .text          0x0000000000008082        0x0 logic/acceleration.o
+ .text.reset_acceleration
+                0x0000000000008082       0x12 logic/acceleration.o
+                0x0000000000008082                reset_acceleration
+ .text.sx_acceleration
+                0x0000000000008094       0x2e logic/acceleration.o
+                0x0000000000008094                sx_acceleration
+ .text.acceleration_value_is_positive
+                0x00000000000080c2        0xe logic/acceleration.o
+                0x00000000000080c2                acceleration_value_is_positive
+ .text.convert_acceleration_value_to_mgrav
+                0x00000000000080d0       0xae logic/acceleration.o
+                0x00000000000080d0                convert_acceleration_value_to_mgrav
+ .text.is_acceleration_measurement
+                0x000000000000817e       0x14 logic/acceleration.o
+                0x000000000000817e                is_acceleration_measurement
+ .text.do_acceleration_measurement
+                0x0000000000008192       0x1c logic/acceleration.o
+                0x0000000000008192                do_acceleration_measurement
+ .text.display_acceleration
+                0x00000000000081ae      0x156 logic/acceleration.o
+                0x00000000000081ae                display_acceleration
+ .text          0x0000000000008304        0x0 logic/alarm.o
+ .text.reset_alarm
+                0x0000000000008304       0x1c logic/alarm.o
+                0x0000000000008304                reset_alarm
+ .text.check_alarm
+                0x0000000000008320       0x1c logic/alarm.o
+                0x0000000000008320                check_alarm
+ .text.stop_alarm
+                0x000000000000833c        0xa logic/alarm.o
+                0x000000000000833c                stop_alarm
+ .text.sx_alarm
+                0x0000000000008346       0x32 logic/alarm.o
+                0x0000000000008346                sx_alarm
+ .text.mx_alarm
+                0x0000000000008378       0xe0 logic/alarm.o
+                0x0000000000008378                mx_alarm
+ .text.display_alarm
+                0x0000000000008458       0xd0 logic/alarm.o
+                0x0000000000008458                display_alarm
+ .text          0x0000000000008528        0x0 logic/altitude.o
+ .text.convert_m_to_ft
+                0x0000000000008528       0x28 logic/altitude.o
+                0x0000000000008528                convert_m_to_ft
+ .text.convert_ft_to_m
+                0x0000000000008550       0x28 logic/altitude.o
+                0x0000000000008550                convert_ft_to_m
+ .text.is_altitude_measurement
+                0x0000000000008578       0x14 logic/altitude.o
+                0x0000000000008578                is_altitude_measurement
+ .text.stop_altitude_measurement
+                0x000000000000858c       0x28 logic/altitude.o
+                0x000000000000858c                stop_altitude_measurement
+ .text.do_altitude_measurement
+                0x00000000000085b4       0xc8 logic/altitude.o
+                0x00000000000085b4                do_altitude_measurement
+ .text.start_altitude_measurement
+                0x000000000000867c       0x50 logic/altitude.o
+                0x000000000000867c                start_altitude_measurement
+ .text.reset_altitude_measurement
+                0x00000000000086cc       0x40 logic/altitude.o
+                0x00000000000086cc                reset_altitude_measurement
+ .text.sx_altitude
+                0x000000000000870c        0x2 logic/altitude.o
+                0x000000000000870c                sx_altitude
+ .text.mx_altitude
+                0x000000000000870e       0xdc logic/altitude.o
+                0x000000000000870e                mx_altitude
+ .text.display_altitude
+                0x00000000000087ea      0x104 logic/altitude.o
+                0x00000000000087ea                display_altitude
+ .text          0x00000000000088ee        0x0 logic/battery.o
+ .text.reset_batt_measurement
+                0x00000000000088ee       0x16 logic/battery.o
+                0x00000000000088ee                reset_batt_measurement
+ .text.battery_measurement
+                0x0000000000008904       0x98 logic/battery.o
+                0x0000000000008904                battery_measurement
+ .text.display_battery_V
+                0x000000000000899c       0x70 logic/battery.o
+                0x000000000000899c                display_battery_V
+ .text          0x0000000000008a0c        0x0 logic/clock.o
+ .text.display_selection_Timeformat1
+                0x0000000000008a0c       0x18 logic/clock.o
+                0x0000000000008a0c                display_selection_Timeformat1
+ .text.reset_clock
+                0x0000000000008a24       0x28 logic/clock.o
+                0x0000000000008a24                reset_clock
+ .text.clock_tick
+                0x0000000000008a4c       0x80 logic/clock.o
+                0x0000000000008a4c                clock_tick
+ .text.convert_hour_to_12H_format
+                0x0000000000008acc       0x16 logic/clock.o
+                0x0000000000008acc                convert_hour_to_12H_format
+ .text.is_hour_am
+                0x0000000000008ae2       0x10 logic/clock.o
+                0x0000000000008ae2                is_hour_am
+ .text.mx_time  0x0000000000008af2      0x1f8 logic/clock.o
+                0x0000000000008af2                mx_time
+ .text.sx_time  0x0000000000008cea       0x12 logic/clock.o
+                0x0000000000008cea                sx_time
+ .text.display_time
+                0x0000000000008cfc      0x1be logic/clock.o
+                0x0000000000008cfc                display_time
+ .text          0x0000000000008eba        0x0 logic/date.o
+ .text.reset_date
+                0x0000000000008eba       0x1a logic/date.o
+                0x0000000000008eba                reset_date
+ .text.get_numberOfDays
+                0x0000000000008ed4       0x9c logic/date.o
+                0x0000000000008ed4                get_numberOfDays
+ .text.add_day  0x0000000000008f70       0x44 logic/date.o
+                0x0000000000008f70                add_day
+ .text.mx_date  0x0000000000008fb4      0x1d2 logic/date.o
+                0x0000000000008fb4                mx_date
+ .text.sx_date  0x0000000000009186       0x12 logic/date.o
+                0x0000000000009186                sx_date
+ .text.display_date
+                0x0000000000009198       0xd6 logic/date.o
+                0x0000000000009198                display_date
+ .text          0x000000000000926e        0x0 logic/menu.o
+ .text.update_time
+                0x000000000000926e        0xe logic/menu.o
+                0x000000000000926e                update_time
+ .text.update_stopwatch
+                0x000000000000927c        0xe logic/menu.o
+                0x000000000000927c                update_stopwatch
+ .text.update_date
+                0x000000000000928a        0xe logic/menu.o
+                0x000000000000928a                update_date
+ .text.update_alarm
+                0x0000000000009298        0xe logic/menu.o
+                0x0000000000009298                update_alarm
+ .text.update_temperature
+                0x00000000000092a6        0xe logic/menu.o
+                0x00000000000092a6                update_temperature
+ .text.update_battery_voltage
+                0x00000000000092b4        0xe logic/menu.o
+                0x00000000000092b4                update_battery_voltage
+ .text.update_acceleration
+                0x00000000000092c2        0xe logic/menu.o
+                0x00000000000092c2                update_acceleration
+ .text.display_nothing
+                0x00000000000092d0        0x2 logic/menu.o
+                0x00000000000092d0                display_nothing
+ .text          0x00000000000092d2        0x0 logic/rfbsl.o
+ .text.sx_rfbsl
+                0x00000000000092d2       0x4c logic/rfbsl.o
+                0x00000000000092d2                sx_rfbsl
+ .text.display_rfbsl
+                0x000000000000931e       0x30 logic/rfbsl.o
+                0x000000000000931e                display_rfbsl
+ .text          0x000000000000934e        0x0 logic/rfsimpliciti.o
+ .text.reset_rf
+                0x000000000000934e        0xa logic/rfsimpliciti.o
+                0x000000000000934e                reset_rf
+ .text.start_simpliciti_tx_only
+                0x0000000000009358       0xe4 logic/rfsimpliciti.o
+                0x0000000000009358                start_simpliciti_tx_only
+ .text.sx_ppt   0x000000000000943c       0x26 logic/rfsimpliciti.o
+                0x000000000000943c                sx_ppt
+ .text.sx_rf    0x0000000000009462       0x26 logic/rfsimpliciti.o
+                0x0000000000009462                sx_rf
+ .text.display_rf
+                0x0000000000009488       0x14 logic/rfsimpliciti.o
+                0x0000000000009488                display_rf
+ .text.display_ppt
+                0x000000000000949c       0x14 logic/rfsimpliciti.o
+                0x000000000000949c                display_ppt
+ .text.display_sync
+                0x00000000000094b0       0x14 logic/rfsimpliciti.o
+                0x00000000000094b0                display_sync
+ .text.is_rf    0x00000000000094c4        0xc logic/rfsimpliciti.o
+                0x00000000000094c4                is_rf
+ .text.simpliciti_get_ed_data_callback
+                0x00000000000094d0       0xb6 logic/rfsimpliciti.o
+                0x00000000000094d0                simpliciti_get_ed_data_callback
+ .text.start_simpliciti_sync
+                0x0000000000009586       0xaa logic/rfsimpliciti.o
+                0x0000000000009586                start_simpliciti_sync
+ .text.sx_sync  0x0000000000009630       0x24 logic/rfsimpliciti.o
+                0x0000000000009630                sx_sync
+ .text.simpliciti_sync_decode_ap_cmd_callback
+                0x0000000000009654      0x138 logic/rfsimpliciti.o
+                0x0000000000009654                simpliciti_sync_decode_ap_cmd_callback
+ .text.simpliciti_sync_get_data_callback
+                0x000000000000978c       0xe0 logic/rfsimpliciti.o
+                0x000000000000978c                simpliciti_sync_get_data_callback
+ .text          0x000000000000986c        0x0 logic/stopwatch.o
+ .text.update_stopwatch_timer
+                0x000000000000986c       0x3e logic/stopwatch.o
+                0x000000000000986c                update_stopwatch_timer
+ .text.reset_stopwatch
+                0x00000000000098aa       0x2a logic/stopwatch.o
+                0x00000000000098aa                reset_stopwatch
+ .text.is_stopwatch
+                0x00000000000098d4       0x16 logic/stopwatch.o
+                0x00000000000098d4                is_stopwatch
+ .text.start_stopwatch
+                0x00000000000098ea       0x26 logic/stopwatch.o
+                0x00000000000098ea                start_stopwatch
+ .text.display_stopwatch
+                0x0000000000009910      0x110 logic/stopwatch.o
+                0x0000000000009910                display_stopwatch
+ .text.stop_stopwatch
+                0x0000000000009a20       0x1e logic/stopwatch.o
+                0x0000000000009a20                stop_stopwatch
+ .text.sx_stopwatch
+                0x0000000000009a3e       0x18 logic/stopwatch.o
+                0x0000000000009a3e                sx_stopwatch
+ .text.mx_stopwatch
+                0x0000000000009a56       0x1a logic/stopwatch.o
+                0x0000000000009a56                mx_stopwatch
+ .text.stopwatch_tick
+                0x0000000000009a70      0x11e logic/stopwatch.o
+                0x0000000000009a70                stopwatch_tick
+ .text          0x0000000000009b8e        0x0 logic/temperature.o
+ .text.temperature_measurement
+                0x0000000000009b8e       0xdc logic/temperature.o
+                0x0000000000009b8e                temperature_measurement
+ .text.reset_temp_measurement
+                0x0000000000009c6a        0xc logic/temperature.o
+                0x0000000000009c6a                reset_temp_measurement
+ .text.convert_C_to_F
+                0x0000000000009c76       0x34 logic/temperature.o
+                0x0000000000009c76                convert_C_to_F
+ .text.convert_F_to_C
+                0x0000000000009caa       0x30 logic/temperature.o
+                0x0000000000009caa                convert_F_to_C
+ .text.is_temp_measurement
+                0x0000000000009cda        0xc logic/temperature.o
+                0x0000000000009cda                is_temp_measurement
+ .text.mx_temperature
+                0x0000000000009ce6       0xdc logic/temperature.o
+                0x0000000000009ce6                mx_temperature
+ .text.display_temperature
+                0x0000000000009dc2       0xe4 logic/temperature.o
+                0x0000000000009dc2                display_temperature
+ .text          0x0000000000009ea6        0x0 logic/user.o
+ .text.dummy    0x0000000000009ea6        0x2 logic/user.o
+                0x0000000000009ea6                dummy
+ .text.set_value
+                0x0000000000009ea8      0x262 logic/user.o
+                0x0000000000009ea8                set_value
+ .text          0x000000000000a10a        0x0 driver/adc12.o
+ .text.adc12_single_conversion
+                0x000000000000a10a       0x78 driver/adc12.o
+                0x000000000000a10a                adc12_single_conversion
+ .text.ADC12ISR
+                0x000000000000a182       0x2a driver/adc12.o
+                0x000000000000a182                ADC12ISR
+ .text          0x000000000000a1ac        0x0 driver/as.o
+ .text.as_init  0x000000000000a1ac       0x32 driver/as.o
+                0x000000000000a1ac                as_init
+ .text.as_start
+                0x000000000000a1de       0x3c driver/as.o
+                0x000000000000a1de                as_start
+ .text.as_stop  0x000000000000a21a       0x36 driver/as.o
+                0x000000000000a21a                as_stop
+ .text.as_read_register
+                0x000000000000a250       0x6a driver/as.o
+                0x000000000000a250                as_read_register
+ .text.as_write_register
+                0x000000000000a2ba       0x6a driver/as.o
+                0x000000000000a2ba                as_write_register
+ .text          0x000000000000a324        0x0 driver/bmp_as.o
+ .text.bmp_as_stop
+                0x000000000000a324        0x6 driver/bmp_as.o
+                0x000000000000a324                bmp_as_stop
+ .text.bmp_as_read_register
+                0x000000000000a32a        0xa driver/bmp_as.o
+                0x000000000000a32a                bmp_as_read_register
+ .text.bmp_as_write_register
+                0x000000000000a334        0x6 driver/bmp_as.o
+                0x000000000000a334                bmp_as_write_register
+ .text.bmp_as_start
+                0x000000000000a33a       0x66 driver/bmp_as.o
+                0x000000000000a33a                bmp_as_start
+ .text.bmp_as_get_data
+                0x000000000000a3a0       0x52 driver/bmp_as.o
+                0x000000000000a3a0                bmp_as_get_data
+ .text          0x000000000000a3f2        0x0 driver/bmp_ps.o
+ .text.bmp_ps_stop
+                0x000000000000a3f2        0x2 driver/bmp_ps.o
+                0x000000000000a3f2                bmp_ps_stop
+ .text.bmp_ps_write_register
+                0x000000000000a3f4        0xe driver/bmp_ps.o
+                0x000000000000a3f4                bmp_ps_write_register
+ .text.bmp_ps_start
+                0x000000000000a402        0xe driver/bmp_ps.o
+                0x000000000000a402                bmp_ps_start
+ .text.bmp_ps_read_register
+                0x000000000000a410        0xe driver/bmp_ps.o
+                0x000000000000a410                bmp_ps_read_register
+ .text.bmp_ps_get_cal_param
+                0x000000000000a41e       0xa4 driver/bmp_ps.o
+                0x000000000000a41e                bmp_ps_get_cal_param
+ .text.bmp_ps_init
+                0x000000000000a4c2       0x2e driver/bmp_ps.o
+                0x000000000000a4c2                bmp_ps_init
+ .text.bmp_ps_get_pa
+                0x000000000000a4f0      0x37e driver/bmp_ps.o
+                0x000000000000a4f0                bmp_ps_get_pa
+ .text.bmp_ps_get_temp
+                0x000000000000a86e       0xd8 driver/bmp_ps.o
+                0x000000000000a86e                bmp_ps_get_temp
+ .text          0x000000000000a946        0x0 driver/buzzer.o
+ .text.reset_buzzer
+                0x000000000000a946        0xe driver/buzzer.o
+                0x000000000000a946                reset_buzzer
+ .text.start_buzzer
+                0x000000000000a954       0x42 driver/buzzer.o
+                0x000000000000a954                start_buzzer
+ .text.stop_buzzer
+                0x000000000000a996       0x22 driver/buzzer.o
+                0x000000000000a996                stop_buzzer
+ .text.is_buzzer
+                0x000000000000a9b8        0xc driver/buzzer.o
+                0x000000000000a9b8                is_buzzer
+ .text.countdown_buzzer
+                0x000000000000a9c4       0x12 driver/buzzer.o
+                0x000000000000a9c4                countdown_buzzer
+ .text.toggle_buzzer
+                0x000000000000a9d6       0x4a driver/buzzer.o
+                0x000000000000a9d6                toggle_buzzer
+ .text          0x000000000000aa20        0x0 driver/cma_as.o
+ .text.cma_as_stop
+                0x000000000000aa20        0x6 driver/cma_as.o
+                0x000000000000aa20                cma_as_stop
+ .text.cma_as_read_register
+                0x000000000000aa26        0xc driver/cma_as.o
+                0x000000000000aa26                cma_as_read_register
+ .text.cma_as_write_register
+                0x000000000000aa32        0xc driver/cma_as.o
+                0x000000000000aa32                cma_as_write_register
+ .text.cma_as_start
+                0x000000000000aa3e       0x4e driver/cma_as.o
+                0x000000000000aa3e                cma_as_start
+ .text.cma_as_get_data
+                0x000000000000aa8c       0x30 driver/cma_as.o
+                0x000000000000aa8c                cma_as_get_data
+ .text          0x000000000000aabc        0x0 driver/cma_ps.o
+ .text.cma_ps_write_register
+                0x000000000000aabc        0xe driver/cma_ps.o
+                0x000000000000aabc                cma_ps_write_register
+ .text.cma_ps_stop
+                0x000000000000aaca        0xc driver/cma_ps.o
+                0x000000000000aaca                cma_ps_stop
+ .text.cma_ps_start
+                0x000000000000aad6        0xe driver/cma_ps.o
+                0x000000000000aad6                cma_ps_start
+ .text.cma_ps_read_register
+                0x000000000000aae4        0xe driver/cma_ps.o
+                0x000000000000aae4                cma_ps_read_register
+ .text.cma_ps_init
+                0x000000000000aaf2       0x58 driver/cma_ps.o
+                0x000000000000aaf2                cma_ps_init
+ .text.cma_ps_get_pa
+                0x000000000000ab4a       0x80 driver/cma_ps.o
+                0x000000000000ab4a                cma_ps_get_pa
+ .text.cma_ps_get_temp
+                0x000000000000abca       0x5a driver/cma_ps.o
+                0x000000000000abca                cma_ps_get_temp
+ .text          0x000000000000ac24        0x0 driver/display.o
+ .text.lcd_init
+                0x000000000000ac24       0x2a driver/display.o
+                0x000000000000ac24                lcd_init
+ .text.write_lcd_mem
+                0x000000000000ac4e       0x60 driver/display.o
+                0x000000000000ac4e                write_lcd_mem
+ .text.int_to_array
+                0x000000000000acae       0xd0 driver/display.o
+                0x000000000000acae                int_to_array
+ .text.display_symbol
+                0x000000000000ad7e       0x1c driver/display.o
+                0x000000000000ad7e                display_symbol
+ .text.display_am_pm_symbol
+                0x000000000000ad9a       0x1e driver/display.o
+                0x000000000000ad9a                display_am_pm_symbol
+ .text.display_char
+                0x000000000000adb8       0x76 driver/display.o
+                0x000000000000adb8                display_char
+ .text.display_chars
+                0x000000000000ae2e       0x3e driver/display.o
+                0x000000000000ae2e                display_chars
+ .text.display_value
+                0x000000000000ae6c       0x20 driver/display.o
+                0x000000000000ae6c                display_value
+ .text.display_hours
+                0x000000000000ae8c       0x40 driver/display.o
+                0x000000000000ae8c                display_hours
+ .text.switch_seg
+                0x000000000000aecc        0xa driver/display.o
+                0x000000000000aecc                switch_seg
+ .text.clear_line
+                0x000000000000aed6       0x58 driver/display.o
+                0x000000000000aed6                clear_line
+ .text.clear_display
+                0x000000000000af2e        0xe driver/display.o
+                0x000000000000af2e                clear_display
+ .text.clear_display_all
+                0x000000000000af3c       0x1e driver/display.o
+                0x000000000000af3c                clear_display_all
+ .text.start_blink
+                0x000000000000af5a        0x6 driver/display.o
+                0x000000000000af5a                start_blink
+ .text.stop_blink
+                0x000000000000af60        0x8 driver/display.o
+                0x000000000000af60                stop_blink
+ .text.clear_blink_mem
+                0x000000000000af68        0x6 driver/display.o
+                0x000000000000af68                clear_blink_mem
+ .text.set_blink_rate
+                0x000000000000af6e       0x14 driver/display.o
+                0x000000000000af6e                set_blink_rate
+ .text          0x000000000000af82        0x0 driver/pmm.o
+ .text.SetVCoreUp
+                0x000000000000af82       0x46 driver/pmm.o
+                0x000000000000af82                SetVCoreUp
+ .text.SetVCoreDown
+                0x000000000000afc8       0x28 driver/pmm.o
+                0x000000000000afc8                SetVCoreDown
+ .text.SetVCore
+                0x000000000000aff0       0x2c driver/pmm.o
+                0x000000000000aff0                SetVCore
+ .text          0x000000000000b01c        0x0 driver/ports.o
+ .text.button_repeat_function
+                0x000000000000b01c       0x62 driver/ports.o
+                0x000000000000b01c                button_repeat_function
+ .text.init_buttons
+                0x000000000000b07e       0x26 driver/ports.o
+                0x000000000000b07e                init_buttons
+ .text.PORT2_ISR
+                0x000000000000b0a4      0x24e driver/ports.o
+                0x000000000000b0a4                PORT2_ISR
+                0x000000000000b0a4                __isr_48
+ .text.button_repeat_on
+                0x000000000000b2f2       0x3e driver/ports.o
+                0x000000000000b2f2                button_repeat_on
+ .text.button_repeat_off
+                0x000000000000b330        0xc driver/ports.o
+                0x000000000000b330                button_repeat_off
+ .text          0x000000000000b33c        0x0 driver/ps.o
+ .text.ps_init  0x000000000000b33c       0x26 driver/ps.o
+                0x000000000000b33c                ps_init
+ .text.ps_i2c_delay
+                0x000000000000b362        0x4 driver/ps.o
+                0x000000000000b362                ps_i2c_delay
+ .text.ps_i2c_read
+                0x000000000000b366       0x68 driver/ps.o
+                0x000000000000b366                ps_i2c_read
+ .text.ps_i2c_write
+                0x000000000000b3ce       0x54 driver/ps.o
+                0x000000000000b3ce                ps_i2c_write
+ .text.ps_i2c_sda
+                0x000000000000b422       0xac driver/ps.o
+                0x000000000000b422                ps_i2c_sda
+ .text.ps_read_register
+                0x000000000000b4ce       0x7e driver/ps.o
+                0x000000000000b4ce                ps_read_register
+ .text.ps_write_register
+                0x000000000000b54c       0x64 driver/ps.o
+                0x000000000000b54c                ps_write_register
+ .text.init_pressure_table
+                0x000000000000b5b0       0x28 driver/ps.o
+                0x000000000000b5b0                init_pressure_table
+ .text.update_pressure_table
+                0x000000000000b5d8      0x258 driver/ps.o
+                0x000000000000b5d8                update_pressure_table
+ .text.conv_pa_to_meter
+                0x000000000000b830      0x2e2 driver/ps.o
+                0x000000000000b830                conv_pa_to_meter
+ .text          0x000000000000bb12        0x0 driver/radio.o
+ .text.radio_reset
+                0x000000000000bb12       0x32 driver/radio.o
+                0x000000000000bb12                radio_reset
+ .text.radio_powerdown
+                0x000000000000bb44       0x12 driver/radio.o
+                0x000000000000bb44                radio_powerdown
+ .text.radio_sxoff
+                0x000000000000bb56       0x12 driver/radio.o
+                0x000000000000bb56                radio_sxoff
+ .text.open_radio
+                0x000000000000bb68       0x12 driver/radio.o
+                0x000000000000bb68                open_radio
+ .text.close_radio
+                0x000000000000bb7a       0x12 driver/radio.o
+                0x000000000000bb7a                close_radio
+ .text.radio_ISR
+                0x000000000000bb8c       0x1e driver/radio.o
+                0x000000000000bb8c                radio_ISR
+                0x000000000000bb8c                __isr_53
+ .text          0x000000000000bbaa        0x0 driver/rf1a.o
+ .text.ReadSingleReg
+                0x000000000000bbaa       0x16 driver/rf1a.o
+                0x000000000000bbaa                ReadSingleReg
+ .text.WriteSingleReg
+                0x000000000000bbc0       0x38 driver/rf1a.o
+                0x000000000000bbc0                WriteSingleReg
+ .text.Strobe   0x000000000000bbf8       0x94 driver/rf1a.o
+                0x000000000000bbf8                Strobe
+ .text.ResetRadioCore
+                0x000000000000bc8c       0x12 driver/rf1a.o
+                0x000000000000bc8c                ResetRadioCore
+ .text.ReadBurstReg
+                0x000000000000bc9e       0x4c driver/rf1a.o
+                0x000000000000bc9e                ReadBurstReg
+ .text.WriteBurstReg
+                0x000000000000bcea       0x44 driver/rf1a.o
+                0x000000000000bcea                WriteBurstReg
+ .text.WritePATable
+                0x000000000000bd2e       0x6a driver/rf1a.o
+                0x000000000000bd2e                WritePATable
+ .text          0x000000000000bd98        0x0 driver/timer.o
+ .text.Timer0_Init
+                0x000000000000bd98       0x14 driver/timer.o
+                0x000000000000bd98                Timer0_Init
+ .text.Timer0_Start
+                0x000000000000bdac        0x8 driver/timer.o
+                0x000000000000bdac                Timer0_Start
+ .text.Timer0_Stop
+                0x000000000000bdb4        0xc driver/timer.o
+                0x000000000000bdb4                Timer0_Stop
+ .text.Timer0_A3_Start
+                0x000000000000bdc0       0x28 driver/timer.o
+                0x000000000000bdc0                Timer0_A3_Start
+ .text.Timer0_A3_Stop
+                0x000000000000bde8        0x8 driver/timer.o
+                0x000000000000bde8                Timer0_A3_Stop
+ .text.Timer0_A4_Delay
+                0x000000000000bdf0       0x62 driver/timer.o
+                0x000000000000bdf0                Timer0_A4_Delay
+ .text.TIMER0_A0_ISR
+                0x000000000000be52      0x292 driver/timer.o
+                0x000000000000be52                TIMER0_A0_ISR
+                0x000000000000be52                __isr_55
+ .text.TIMER0_A1_5_ISR
+                0x000000000000c0e4       0x82 driver/timer.o
+                0x000000000000c0e4                __isr_54
+                0x000000000000c0e4                TIMER0_A1_5_ISR
+ .text          0x000000000000c166        0x0 simpliciti/Applications/application/End_Device/main_ED_BM.o
+ .text.simpliciti_link
+                0x000000000000c166       0xc0 simpliciti/Applications/application/End_Device/main_ED_BM.o
+                0x000000000000c166                simpliciti_link
+ .text.simpliciti_main_tx_only
+                0x000000000000c226       0x4c simpliciti/Applications/application/End_Device/main_ED_BM.o
+                0x000000000000c226                simpliciti_main_tx_only
+ .text.simpliciti_main_sync
+                0x000000000000c272       0xb8 simpliciti/Applications/application/End_Device/main_ED_BM.o
+                0x000000000000c272                simpliciti_main_sync
+ .text          0x000000000000c32a        0x0 simpliciti/Components/bsp/bsp.o
+ .text.BSP_EARLY_INIT
+                0x000000000000c32a       0xae simpliciti/Components/bsp/bsp.o
+                0x000000000000c32a                BSP_EARLY_INIT
+ .text.BSP_InitBoard
+                0x000000000000c3d8       0x10 simpliciti/Components/bsp/bsp.o
+                0x000000000000c3d8                BSP_InitBoard
+ .text.BSP_Delay
+                0x000000000000c3e8       0x36 simpliciti/Components/bsp/bsp.o
+                0x000000000000c3e8                BSP_Delay
+ .text.BSP_InitLeds
+                0x000000000000c41e       0x18 simpliciti/Components/bsp/bsp.o
+                0x000000000000c41e                BSP_InitLeds
+ .text.BSP_InitButtons
+                0x000000000000c436        0xe simpliciti/Components/bsp/bsp.o
+                0x000000000000c436                BSP_InitButtons
+ .text.BSP_InitDrivers
+                0x000000000000c444        0xa simpliciti/Components/bsp/bsp.o
+                0x000000000000c444                BSP_InitDrivers
+ .text.BSP_Init
+                0x000000000000c44e        0xe simpliciti/Components/bsp/bsp.o
+                0x000000000000c44e                BSP_Init
+ .text          0x000000000000c45c        0x0 simpliciti/Components/mrfi/mrfi.o
+ .text.Mrfi_CalculateRssi
+                0x000000000000c45c       0x32 simpliciti/Components/mrfi/mrfi.o
+ .text.Mrfi_DelayUsec
+                0x000000000000c48e       0x2e simpliciti/Components/mrfi/mrfi.o
+ .text.MRFI_Receive
+                0x000000000000c4bc        0xe simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c4bc                MRFI_Receive
+ .text.MRFI_RandomByte
+                0x000000000000c4ca       0x22 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c4ca                MRFI_RandomByte
+ .text.MRFI_DelayMs
+                0x000000000000c4ec       0x18 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c4ec                MRFI_DelayMs
+ .text.MRFI_ReplyDelay
+                0x000000000000c504       0x5e simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c504                MRFI_ReplyDelay
+ .text.MRFI_PostKillSem
+                0x000000000000c562        0xe simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c562                MRFI_PostKillSem
+ .text.MRFI_GetRadioState
+                0x000000000000c570        0x6 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c570                MRFI_GetRadioState
+ .text.mrfiRadioInterfaceInit
+                0x000000000000c576        0x2 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c576                mrfiRadioInterfaceInit
+ .text.mrfiRadioInterfaceReadReg
+                0x000000000000c578       0x44 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c578                mrfiRadioInterfaceReadReg
+ .text.MRFI_Rssi
+                0x000000000000c5bc       0x22 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c5bc                MRFI_Rssi
+ .text.mrfiRadioInterfaceWriteReg
+                0x000000000000c5de       0x36 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c5de                mrfiRadioInterfaceWriteReg
+ .text.mrfiRadioInterfaceCmdStrobe
+                0x000000000000c614       0x90 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c614                mrfiRadioInterfaceCmdStrobe
+ .text.Mrfi_RxModeOff
+                0x000000000000c6a4       0x2c simpliciti/Components/mrfi/mrfi.o
+ .text.MRFI_RxIdle
+                0x000000000000c6d0       0x1e simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c6d0                MRFI_RxIdle
+ .text.Mrfi_RxModeOn
+                0x000000000000c6ee       0x16 simpliciti/Components/mrfi/mrfi.o
+ .text.MRFI_RxOn
+                0x000000000000c704       0x20 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c704                MRFI_RxOn
+ .text.MRFI_WakeUp
+                0x000000000000c724       0x22 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c724                MRFI_WakeUp
+ .text.MRFI_Sleep
+                0x000000000000c746       0x26 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c746                MRFI_Sleep
+ .text.MRFI_DisableRxAddrFilter
+                0x000000000000c76c       0x10 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c76c                MRFI_DisableRxAddrFilter
+ .text.MRFI_EnableRxAddrFilter
+                0x000000000000c77c       0x1e simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c77c                MRFI_EnableRxAddrFilter
+ .text.MRFI_SetRxAddrFilter
+                0x000000000000c79a       0x2c simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c79a                MRFI_SetRxAddrFilter
+ .text.MRFI_SetRFPwr
+                0x000000000000c7c6       0x28 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c7c6                MRFI_SetRFPwr
+ .text.MRFI_SetLogicalChannel
+                0x000000000000c7ee       0x30 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c7ee                MRFI_SetLogicalChannel
+ .text.MRFI_Init
+                0x000000000000c81e      0x192 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c81e                MRFI_Init
+ .text.mrfiRadioInterfaceWriteTxFifo
+                0x000000000000c9b0       0x36 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c9b0                mrfiRadioInterfaceWriteTxFifo
+ .text.MRFI_Transmit
+                0x000000000000c9e6       0xe8 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000c9e6                MRFI_Transmit
+ .text.mrfiRadioInterfaceReadRxFifo
+                0x000000000000cace       0x74 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000cace                mrfiRadioInterfaceReadRxFifo
+ .text.MRFI_RadioIsr
+                0x000000000000cb42      0x17e simpliciti/Components/mrfi/mrfi.o
+                0x000000000000cb42                MRFI_RadioIsr
+ .text          0x000000000000ccc0        0x0 simpliciti/Components/nwk/nwk.o
+ .text.map_lid2idx
+                0x000000000000ccc0       0x32 simpliciti/Components/nwk/nwk.o
+ .text.nwk_nwkInit
+                0x000000000000ccf2       0x8e simpliciti/Components/nwk/nwk.o
+                0x000000000000ccf2                nwk_nwkInit
+ .text.nwk_getNextConnection
+                0x000000000000cd80       0x6c simpliciti/Components/nwk/nwk.o
+                0x000000000000cd80                nwk_getNextConnection
+ .text.nwk_freeConnection
+                0x000000000000cdec        0x6 simpliciti/Components/nwk/nwk.o
+                0x000000000000cdec                nwk_freeConnection
+ .text.nwk_getConnInfo
+                0x000000000000cdf2       0x32 simpliciti/Components/nwk/nwk.o
+                0x000000000000cdf2                nwk_getConnInfo
+ .text.nwk_isLinkDuplicate
+                0x000000000000ce24       0x30 simpliciti/Components/nwk/nwk.o
+                0x000000000000ce24                nwk_isLinkDuplicate
+ .text.nwk_findAddressMatch
+                0x000000000000ce54       0x24 simpliciti/Components/nwk/nwk.o
+                0x000000000000ce54                nwk_findAddressMatch
+ .text.nwk_checkConnInfo
+                0x000000000000ce78       0x26 simpliciti/Components/nwk/nwk.o
+                0x000000000000ce78                nwk_checkConnInfo
+ .text.nwk_isConnectionValid
+                0x000000000000ce9e       0x8e simpliciti/Components/nwk/nwk.o
+                0x000000000000ce9e                nwk_isConnectionValid
+ .text.nwk_allocateLocalRxPort
+                0x000000000000cf2c       0x8a simpliciti/Components/nwk/nwk.o
+                0x000000000000cf2c                nwk_allocateLocalRxPort
+ .text.nwk_isValidReply
+                0x000000000000cfb6       0x3e simpliciti/Components/nwk/nwk.o
+                0x000000000000cfb6                nwk_isValidReply
+ .text.nwk_findPeer
+                0x000000000000cff4       0x3a simpliciti/Components/nwk/nwk.o
+                0x000000000000cff4                nwk_findPeer
+ .text.nwk_checkAppMsgTID
+                0x000000000000d02e       0x30 simpliciti/Components/nwk/nwk.o
+                0x000000000000d02e                nwk_checkAppMsgTID
+ .text.nwk_getNumObjectFromMsg
+                0x000000000000d05e        0xe simpliciti/Components/nwk/nwk.o
+                0x000000000000d05e                nwk_getNumObjectFromMsg
+ .text.nwk_putNumObjectIntoMsg
+                0x000000000000d06c       0x38 simpliciti/Components/nwk/nwk.o
+                0x000000000000d06c                nwk_putNumObjectIntoMsg
+ .text.nwk_NVObj
+                0x000000000000d0a4        0x4 simpliciti/Components/nwk/nwk.o
+                0x000000000000d0a4                nwk_NVObj
+ .text          0x000000000000d0a8        0x0 simpliciti/Components/nwk/nwk_api.o
+ .text.SMPL_Init
+                0x000000000000d0a8       0x36 simpliciti/Components/nwk/nwk_api.o
+                0x000000000000d0a8                SMPL_Init
+ .text.SMPL_LinkListen
+                0x000000000000d0de       0x68 simpliciti/Components/nwk/nwk_api.o
+                0x000000000000d0de                SMPL_LinkListen
+ .text.SMPL_SendOpt
+                0x000000000000d146       0xec simpliciti/Components/nwk/nwk_api.o
+                0x000000000000d146                SMPL_SendOpt
+ .text.SMPL_Send
+                0x000000000000d232        0x8 simpliciti/Components/nwk/nwk_api.o
+                0x000000000000d232                SMPL_Send
+ .text.SMPL_Receive
+                0x000000000000d23a       0x40 simpliciti/Components/nwk/nwk_api.o
+                0x000000000000d23a                SMPL_Receive
+ .text.SMPL_Link
+                0x000000000000d27a        0x6 simpliciti/Components/nwk/nwk_api.o
+                0x000000000000d27a                SMPL_Link
+ .text.SMPL_Ioctl
+                0x000000000000d280       0x96 simpliciti/Components/nwk/nwk_api.o
+                0x000000000000d280                SMPL_Ioctl
+ .text          0x000000000000d316        0x0 simpliciti/Components/nwk/nwk_frame.o
+ .text.nwk_frameInit
+                0x000000000000d316       0x1e simpliciti/Components/nwk/nwk_frame.o
+                0x000000000000d316                nwk_frameInit
+ .text.nwk_buildFrame
+                0x000000000000d334       0x80 simpliciti/Components/nwk/nwk_frame.o
+                0x000000000000d334                nwk_buildFrame
+ .text.nwk_buildAckReqFrame
+                0x000000000000d3b4       0x1c simpliciti/Components/nwk/nwk_frame.o
+                0x000000000000d3b4                nwk_buildAckReqFrame
+ .text.MRFI_RxCompleteISR
+                0x000000000000d3d0       0x90 simpliciti/Components/nwk/nwk_frame.o
+                0x000000000000d3d0                MRFI_RxCompleteISR
+ .text.nwk_retrieveFrame
+                0x000000000000d460       0xa2 simpliciti/Components/nwk/nwk_frame.o
+                0x000000000000d460                nwk_retrieveFrame
+ .text.nwk_sendFrame
+                0x000000000000d502       0x2c simpliciti/Components/nwk/nwk_frame.o
+                0x000000000000d502                nwk_sendFrame
+ .text.nwk_getMyRxType
+                0x000000000000d52e        0x4 simpliciti/Components/nwk/nwk_frame.o
+                0x000000000000d52e                nwk_getMyRxType
+ .text.nwk_sendAckReply
+                0x000000000000d532       0x70 simpliciti/Components/nwk/nwk_frame.o
+                0x000000000000d532                nwk_sendAckReply
+ .text          0x000000000000d5a2        0x0 simpliciti/Components/nwk/nwk_globals.o
+ .text.nwk_globalsInit
+                0x000000000000d5a2       0x20 simpliciti/Components/nwk/nwk_globals.o
+                0x000000000000d5a2                nwk_globalsInit
+ .text.nwk_getMyAddress
+                0x000000000000d5c2       0x12 simpliciti/Components/nwk/nwk_globals.o
+                0x000000000000d5c2                nwk_getMyAddress
+ .text.nwk_getFWVersion
+                0x000000000000d5d4        0x6 simpliciti/Components/nwk/nwk_globals.o
+                0x000000000000d5d4                nwk_getFWVersion
+ .text.nwk_getProtocolVersion
+                0x000000000000d5da        0x4 simpliciti/Components/nwk/nwk_globals.o
+                0x000000000000d5da                nwk_getProtocolVersion
+ .text.nwk_setMyAddress
+                0x000000000000d5de       0x1e simpliciti/Components/nwk/nwk_globals.o
+                0x000000000000d5de                nwk_setMyAddress
+ .text.nwk_setAPAddress
+                0x000000000000d5fc        0xe simpliciti/Components/nwk/nwk_globals.o
+                0x000000000000d5fc                nwk_setAPAddress
+ .text.nwk_getAPAddress
+                0x000000000000d60a       0x26 simpliciti/Components/nwk/nwk_globals.o
+                0x000000000000d60a                nwk_getAPAddress
+ .text.nwk_getBCastAddress
+                0x000000000000d630        0x6 simpliciti/Components/nwk/nwk_globals.o
+                0x000000000000d630                nwk_getBCastAddress
+ .text          0x000000000000d636        0x0 simpliciti/Components/nwk/nwk_QMgmt.o
+ .text.nwk_QInit
+                0x000000000000d636       0x1e simpliciti/Components/nwk/nwk_QMgmt.o
+                0x000000000000d636                nwk_QInit
+ .text.nwk_QadjustOrder
+                0x000000000000d654       0x3c simpliciti/Components/nwk/nwk_QMgmt.o
+                0x000000000000d654                nwk_QadjustOrder
+ .text.nwk_QfindSlot
+                0x000000000000d690       0x78 simpliciti/Components/nwk/nwk_QMgmt.o
+                0x000000000000d690                nwk_QfindSlot
+ .text.nwk_QfindOldest
+                0x000000000000d708       0xe2 simpliciti/Components/nwk/nwk_QMgmt.o
+                0x000000000000d708                nwk_QfindOldest
+ .text.nwk_getQ
+                0x000000000000d7ea       0x10 simpliciti/Components/nwk/nwk_QMgmt.o
+                0x000000000000d7ea                nwk_getQ
+ .text          0x000000000000d7fa        0x0 simpliciti/Components/nwk_applications/nwk_freq.o
+ .text.nwk_freqInit
+                0x000000000000d7fa        0x2 simpliciti/Components/nwk_applications/nwk_freq.o
+                0x000000000000d7fa                nwk_freqInit
+ .text.nwk_processFreq
+                0x000000000000d7fc        0x4 simpliciti/Components/nwk_applications/nwk_freq.o
+                0x000000000000d7fc                nwk_processFreq
+ .text          0x000000000000d800        0x0 simpliciti/Components/nwk_applications/nwk_ioctl.o
+ .text.nwk_rawSend
+                0x000000000000d800       0x4e simpliciti/Components/nwk_applications/nwk_ioctl.o
+                0x000000000000d800                nwk_rawSend
+ .text.nwk_rawReceive
+                0x000000000000d84e       0x2c simpliciti/Components/nwk_applications/nwk_ioctl.o
+                0x000000000000d84e                nwk_rawReceive
+ .text.nwk_radioControl
+                0x000000000000d87a       0x6c simpliciti/Components/nwk_applications/nwk_ioctl.o
+                0x000000000000d87a                nwk_radioControl
+ .text.nwk_deviceAddress
+                0x000000000000d8e6       0x30 simpliciti/Components/nwk_applications/nwk_ioctl.o
+                0x000000000000d8e6                nwk_deviceAddress
+ .text.nwk_connectionControl
+                0x000000000000d916       0x26 simpliciti/Components/nwk_applications/nwk_ioctl.o
+                0x000000000000d916                nwk_connectionControl
+ .text          0x000000000000d93c        0x0 simpliciti/Components/nwk_applications/nwk_join.o
+ .text.nwk_joinInit
+                0x000000000000d93c       0x26 simpliciti/Components/nwk_applications/nwk_join.o
+                0x000000000000d93c                nwk_joinInit
+ .text.nwk_setJoinToken
+                0x000000000000d962       0x12 simpliciti/Components/nwk_applications/nwk_join.o
+                0x000000000000d962                nwk_setJoinToken
+ .text.nwk_getJoinToken
+                0x000000000000d974       0x12 simpliciti/Components/nwk_applications/nwk_join.o
+                0x000000000000d974                nwk_getJoinToken
+ .text.nwk_join
+                0x000000000000d986       0xee simpliciti/Components/nwk_applications/nwk_join.o
+                0x000000000000d986                nwk_join
+ .text.nwk_processJoin
+                0x000000000000da74       0x1c simpliciti/Components/nwk_applications/nwk_join.o
+                0x000000000000da74                nwk_processJoin
+ .text          0x000000000000da90        0x0 simpliciti/Components/nwk_applications/nwk_link.o
+ .text.nwk_linkInit
+                0x000000000000da90       0x2a simpliciti/Components/nwk_applications/nwk_link.o
+                0x000000000000da90                nwk_linkInit
+ .text.nwk_setLinkToken
+                0x000000000000daba       0x12 simpliciti/Components/nwk_applications/nwk_link.o
+                0x000000000000daba                nwk_setLinkToken
+ .text.nwk_getLinkToken
+                0x000000000000dacc       0x12 simpliciti/Components/nwk_applications/nwk_link.o
+                0x000000000000dacc                nwk_getLinkToken
+ .text.nwk_link
+                0x000000000000dade      0x154 simpliciti/Components/nwk_applications/nwk_link.o
+                0x000000000000dade                nwk_link
+ .text.nwk_processLink
+                0x000000000000dc32      0x186 simpliciti/Components/nwk_applications/nwk_link.o
+                0x000000000000dc32                nwk_processLink
+ .text.nwk_setListenContext
+                0x000000000000ddb8        0xe simpliciti/Components/nwk_applications/nwk_link.o
+                0x000000000000ddb8                nwk_setListenContext
+ .text.nwk_getLocalLinkID
+                0x000000000000ddc6       0x42 simpliciti/Components/nwk_applications/nwk_link.o
+                0x000000000000ddc6                nwk_getLocalLinkID
+ .text          0x000000000000de08        0x0 simpliciti/Components/nwk_applications/nwk_mgmt.o
+ .text.nwk_mgmtInit
+                0x000000000000de08        0xa simpliciti/Components/nwk_applications/nwk_mgmt.o
+                0x000000000000de08                nwk_mgmtInit
+ .text.nwk_processMgmt
+                0x000000000000de12       0x3a simpliciti/Components/nwk_applications/nwk_mgmt.o
+                0x000000000000de12                nwk_processMgmt
+ .text.nwk_poll
+                0x000000000000de4c       0x68 simpliciti/Components/nwk_applications/nwk_mgmt.o
+                0x000000000000de4c                nwk_poll
+ .text          0x000000000000deb4        0x0 simpliciti/Components/nwk_applications/nwk_ping.o
+ .text.nwk_pingInit
+                0x000000000000deb4        0xa simpliciti/Components/nwk_applications/nwk_ping.o
+                0x000000000000deb4                nwk_pingInit
+ .text.nwk_ping
+                0x000000000000debe       0xa6 simpliciti/Components/nwk_applications/nwk_ping.o
+                0x000000000000debe                nwk_ping
+ .text.nwk_processPing
+                0x000000000000df64       0x62 simpliciti/Components/nwk_applications/nwk_ping.o
+                0x000000000000df64                nwk_processPing
+ .text          0x000000000000dfc6        0x0 simpliciti/Components/nwk_applications/nwk_security.o
+ .text.nwk_securityInit
+                0x000000000000dfc6        0x2 simpliciti/Components/nwk_applications/nwk_security.o
+                0x000000000000dfc6                nwk_securityInit
+ .text.nwk_processSecurity
+                0x000000000000dfc8        0x4 simpliciti/Components/nwk_applications/nwk_security.o
+                0x000000000000dfc8                nwk_processSecurity
+ .text          0x000000000000dfcc        0x0 main.o
+ .text.init_application
+                0x000000000000dfcc       0xe4 main.o
+                0x000000000000dfcc                init_application
+ .text.wakeup_event
+                0x000000000000e0b0      0x14c main.o
+                0x000000000000e0b0                wakeup_event
+ .text.process_requests
+                0x000000000000e1fc       0x48 main.o
+                0x000000000000e1fc                process_requests
+ .text.display_update
+                0x000000000000e244      0x108 main.o
+                0x000000000000e244                display_update
+ .text.to_lpm   0x000000000000e34c        0x8 main.o
+                0x000000000000e34c                to_lpm
+ .text.idle_loop
+                0x000000000000e354        0xc main.o
+                0x000000000000e354                idle_loop
+ .text.read_calibration_values
+                0x000000000000e360       0xb6 main.o
+                0x000000000000e360                read_calibration_values
+ .text.init_global_variables
+                0x000000000000e416       0x68 main.o
+                0x000000000000e416                init_global_variables
+ .text          0x000000000000e47e        0xc even_in_range.o
+                0x000000000000e47e                __even_in_range
+ .text          0x000000000000e48a        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+ .text.libgcc   0x000000000000e48a       0x38 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+                0x000000000000e48a                __udivsi3
+                0x000000000000e48a                __ext_udivmod32
+                0x000000000000e4b8                __umodsi3
+ .text          0x000000000000e4c2        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_divmod32.o)
+ .text.libgcc   0x000000000000e4c2       0x4c /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_divmod32.o)
+                0x000000000000e4c2                __ext_divmod32
+                0x000000000000e4c2                __divsi3
+                0x000000000000e504                __modsi3
+ .text          0x000000000000e50e       0x3c /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fixunssfsi.o)
+                0x000000000000e50e                __fixunssfsi
+ .text          0x000000000000e54a      0x318 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_addsub_sf.o)
+                0x000000000000e7c6                __addsf3
+                0x000000000000e812                __subsf3
+ .text          0x000000000000e862      0x21e /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_mul_sf.o)
+                0x000000000000e862                __mulsf3
+ .text          0x000000000000ea80      0x14a /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_div_sf.o)
+                0x000000000000ea80                __divsf3
+ .text          0x000000000000ebca       0x50 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_gt_sf.o)
+                0x000000000000ebca                __gtsf2
+ .text          0x000000000000ec1a       0x50 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_ge_sf.o)
+                0x000000000000ec1a                __gesf2
+ .text          0x000000000000ec6a       0x50 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_lt_sf.o)
+                0x000000000000ec6a                __ltsf2
+ .text          0x000000000000ecba       0xa2 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_si_to_sf.o)
+                0x000000000000ecba                __floatsisf
+ .text          0x000000000000ed5c       0x90 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_sf_to_si.o)
+                0x000000000000ed5c                __fixsfsi
+ .text          0x000000000000edec        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_thenan_sf.o)
+ .text          0x000000000000edec       0xe0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_usi_to_sf.o)
+                0x000000000000edec                __floatunsisf
+ .text          0x000000000000eecc       0x6a /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clzsi2.o)
+                0x000000000000eecc                __clzsi2
+ .text          0x000000000000ef36      0x1c6 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_pack_sf.o)
+                0x000000000000ef36                __pack_f
+ .text          0x000000000000f0fc      0x10c /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_unpack_sf.o)
+                0x000000000000f0fc                __unpack_f
+ .text          0x000000000000f208       0xa4 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fpcmp_parts_sf.o)
+                0x000000000000f208                __fpcmp_parts_f
+ .text          0x000000000000f2ac        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clz.o)
+ .text          0x000000000000f2ac       0x20 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcmp.o)
+                0x000000000000f2ac                memcmp
+ .text          0x000000000000f2cc       0xe4 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+                0x000000000000f2cc                memcpy
+ .text          0x000000000000f3b0       0xe4 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memmove.o)
+                0x000000000000f3b0                memmove
+ .text          0x000000000000f494       0x5c /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+                0x000000000000f494                memset
+ .text          0x000000000000f4f0        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+ .text          0x000000000000f4f0        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+ .text          0x000000000000f4f0        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+ .text          0x000000000000f4f0        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__low_level_init.o)
+ .text          0x000000000000f4f0        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+ .text          0x000000000000f4f0        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+ .text          0x000000000000f4f0        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__stop_progExec__.o)
+ .text          0x000000000000f4f0        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+ .text          0x000000000000f4f0        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+ .text.crt0     0x000000000000f4f0        0x2 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+                0x000000000000f4f0                _unexpected_
+                0x000000000000f4f2                . = ALIGN (0x2)
+
+.rodata         0x000000000000f4f2      0x5b8
+                0x000000000000f4f2                . = ALIGN (0x2)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.display_acceleration
+                0x000000000000f4f2        0x4 logic/acceleration.o
+ .rodata.cma_mgrav_per_bit
+                0x000000000000f4f6        0xe logic/acceleration.o
+                0x000000000000f4f6                cma_mgrav_per_bit
+ .rodata.bmp_mgrav_per_bit
+                0x000000000000f504        0xe logic/acceleration.o
+                0x000000000000f504                bmp_mgrav_per_bit
+ .rodata.start_altitude_measurement
+                0x000000000000f512        0x4 logic/altitude.o
+ .rodata.selection_Timeformat
+                0x000000000000f516        0x8 logic/clock.o
+                0x000000000000f516                selection_Timeformat
+ .rodata.get_numberOfDays
+                0x000000000000f51e       0x18 logic/date.o
+ .rodata.menu_L2_RFBSL
+                0x000000000000f536        0xa logic/menu.o
+                0x000000000000f536                menu_L2_RFBSL
+ .rodata.menu_L2_Sync
+                0x000000000000f540        0xa logic/menu.o
+                0x000000000000f540                menu_L2_Sync
+ .rodata.menu_L2_Ppt
+                0x000000000000f54a        0xa logic/menu.o
+                0x000000000000f54a                menu_L2_Ppt
+ .rodata.menu_L2_Acc
+                0x000000000000f554        0xa logic/menu.o
+                0x000000000000f554                menu_L2_Acc
+ .rodata.menu_L2_Battery
+                0x000000000000f55e        0xa logic/menu.o
+                0x000000000000f55e                menu_L2_Battery
+ .rodata.menu_L2_Stopwatch
+                0x000000000000f568        0xa logic/menu.o
+                0x000000000000f568                menu_L2_Stopwatch
+ .rodata.menu_L2_Date
+                0x000000000000f572        0xa logic/menu.o
+                0x000000000000f572                menu_L2_Date
+ .rodata.menu_L1_Acceleration
+                0x000000000000f57c        0xa logic/menu.o
+                0x000000000000f57c                menu_L1_Acceleration
+ .rodata.menu_L1_Altitude
+                0x000000000000f586        0xa logic/menu.o
+                0x000000000000f586                menu_L1_Altitude
+ .rodata.menu_L1_Temperature
+                0x000000000000f590        0xa logic/menu.o
+                0x000000000000f590                menu_L1_Temperature
+ .rodata.menu_L1_Alarm
+                0x000000000000f59a        0xa logic/menu.o
+                0x000000000000f59a                menu_L1_Alarm
+ .rodata.menu_L1_Time
+                0x000000000000f5a4        0xa logic/menu.o
+                0x000000000000f5a4                menu_L1_Time
+ .rodata.sx_rfbsl
+                0x000000000000f5ae        0xc logic/rfbsl.o
+ .rodata.display_rfbsl
+                0x000000000000f5ba        0x6 logic/rfbsl.o
+ .rodata.display_rf
+                0x000000000000f5c0        0x7 logic/rfsimpliciti.o
+ .rodata.display_ppt
+                0x000000000000f5c7        0x7 logic/rfsimpliciti.o
+ .rodata.display_sync
+                0x000000000000f5ce        0x7 logic/rfsimpliciti.o
+ *fill*         0x000000000000f5d5        0x1 00
+ .rodata.simpliciti_sync_decode_ap_cmd_callback
+                0x000000000000f5d6       0x14 logic/rfsimpliciti.o
+ .rodata.reset_stopwatch
+                0x000000000000f5ea        0x9 logic/stopwatch.o
+ *fill*         0x000000000000f5f3        0x1 00
+ .rodata.display_stopwatch
+                0x000000000000f5f4       0x1c logic/stopwatch.o
+ .rodata.int_to_array
+                0x000000000000f610        0x8 driver/display.o
+ .rodata.int_to_array_conversion_table
+                0x000000000000f618      0x21f driver/display.o
+                0x000000000000f618                int_to_array_conversion_table
+ .rodata.segments_bitmask
+                0x000000000000f837       0x2a driver/display.o
+                0x000000000000f837                segments_bitmask
+ .rodata.lcd_font
+                0x000000000000f861       0x2b driver/display.o
+                0x000000000000f861                lcd_font
+ .rodata.CSWTCH.20
+                0x000000000000f88c       0x1d driver/display.o
+ .rodata.CSWTCH.21
+                0x000000000000f8a9       0x1d driver/display.o
+ .rodata.p0     0x000000000000f8c6       0x22 driver/ps.o
+                0x000000000000f8c6                p0
+ .rodata.h0     0x000000000000f8e8       0x22 driver/ps.o
+                0x000000000000f8e8                h0
+ .rodata.TIMER0_A0_ISR
+                0x000000000000f90a        0x5 driver/timer.o
+ .rodata.mrfiRadioCfg
+                0x000000000000f90f       0x40 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000f90f                mrfiRadioCfg
+ .rodata.mrfiBroadcastAddr
+                0x000000000000f94f        0x4 simpliciti/Components/mrfi/mrfi.o
+                0x000000000000f94f                mrfiBroadcastAddr
+ .rodata.mrfiLogicalChanTable
+                0x000000000000f953        0x4 simpliciti/Components/mrfi/mrfi.o
+ .rodata.mrfiRFPowerTable_B
+                0x000000000000f957        0x3 simpliciti/Components/mrfi/mrfi.o
+ .rodata.mrfiRFPowerTable
+                0x000000000000f95a        0x3 simpliciti/Components/mrfi/mrfi.o
+ *fill*         0x000000000000f95d        0x1 00
+ .rodata.SMPL_Ioctl
+                0x000000000000f95e        0xe simpliciti/Components/nwk/nwk_api.o
+ .rodata.CSWTCH.4
+                0x000000000000f96c        0x6 simpliciti/Components/nwk/nwk_api.o
+ .rodata.func   0x000000000000f972        0xc simpliciti/Components/nwk/nwk_frame.o
+ .rodata.sMyROMAddress
+                0x000000000000f97e        0x4 simpliciti/Components/nwk/nwk_globals.o
+ .rodata.sVersionInfo
+                0x000000000000f982        0x6 simpliciti/Components/nwk/nwk_globals.o
+ .rodata.CSWTCH.1
+                0x000000000000f988        0x4 simpliciti/Components/nwk_applications/nwk_ioctl.o
+ .rodata.display_update
+                0x000000000000f98c       0x15 main.o
+ *fill*         0x000000000000f9a1        0x1 00
+ .rodata        0x000000000000f9a2        0x8 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_thenan_sf.o)
+                0x000000000000f9a2                __thenan_sf
+ .rodata        0x000000000000f9aa      0x100 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clz.o)
+                0x000000000000f9aa                __clz_tab
+                0x000000000000faaa                . = ALIGN (0x2)
+                0x000000000000faaa                _etext = .
+
+.data           0x0000000000001c00       0x7c load address 0x000000000000faaa
+                0x0000000000001c00                . = ALIGN (0x2)
+                0x0000000000001c00                PROVIDE (__data_start, .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000001c00        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/crt0ivtbl64.o
+ .data          0x0000000000001c00        0x0 logic/acceleration.o
+ .data          0x0000000000001c00        0x0 logic/alarm.o
+ .data          0x0000000000001c00        0x0 logic/altitude.o
+ .data          0x0000000000001c00        0x0 logic/battery.o
+ .data          0x0000000000001c00        0x0 logic/clock.o
+ .data          0x0000000000001c00        0x0 logic/date.o
+ .data          0x0000000000001c00        0x0 logic/menu.o
+ .data          0x0000000000001c00        0x0 logic/rfbsl.o
+ .data          0x0000000000001c00        0x0 logic/rfsimpliciti.o
+ .data          0x0000000000001c00        0x0 logic/stopwatch.o
+ .data          0x0000000000001c00        0x0 logic/temperature.o
+ .data          0x0000000000001c00        0x0 logic/user.o
+ .data          0x0000000000001c00        0x0 driver/adc12.o
+ .data          0x0000000000001c00        0x0 driver/as.o
+ .data          0x0000000000001c00        0x0 driver/bmp_as.o
+ .data          0x0000000000001c00        0x0 driver/bmp_ps.o
+ .data          0x0000000000001c00        0x0 driver/buzzer.o
+ .data          0x0000000000001c00        0x0 driver/cma_as.o
+ .data          0x0000000000001c00        0x0 driver/cma_ps.o
+ .data          0x0000000000001c00        0x0 driver/display.o
+ .data.segments_lcdmem
+                0x0000000000001c00       0x54 driver/display.o
+                0x0000000000001c00                segments_lcdmem
+ .data          0x0000000000001c54        0x0 driver/pmm.o
+ .data          0x0000000000001c54        0x0 driver/ports.o
+ .data.start_delay.2495
+                0x0000000000001c54        0x1 driver/ports.o
+ .data          0x0000000000001c55        0x0 driver/ps.o
+ .data          0x0000000000001c55        0x0 driver/radio.o
+ .data          0x0000000000001c55        0x0 driver/rf1a.o
+ .data          0x0000000000001c55        0x0 driver/timer.o
+ .data          0x0000000000001c55        0x0 simpliciti/Applications/application/End_Device/main_ED_BM.o
+ .data          0x0000000000001c55        0x0 simpliciti/Components/bsp/bsp.o
+ .data          0x0000000000001c55        0x0 simpliciti/Components/mrfi/mrfi.o
+ .data.method   0x0000000000001c55        0x1 simpliciti/Components/mrfi/mrfi.o
+                0x0000000000001c55                method
+ .data.mrfiRxFilterAddr
+                0x0000000000001c56        0x4 simpliciti/Components/mrfi/mrfi.o
+ .data          0x0000000000001c5a        0x0 simpliciti/Components/nwk/nwk.o
+ .data.sPersistInfo
+                0x0000000000001c5a       0x22 simpliciti/Components/nwk/nwk.o
+ .data          0x0000000000001c7c        0x0 simpliciti/Components/nwk/nwk_api.o
+ .data          0x0000000000001c7c        0x0 simpliciti/Components/nwk/nwk_frame.o
+ .data          0x0000000000001c7c        0x0 simpliciti/Components/nwk/nwk_globals.o
+ .data          0x0000000000001c7c        0x0 simpliciti/Components/nwk/nwk_QMgmt.o
+ .data          0x0000000000001c7c        0x0 simpliciti/Components/nwk_applications/nwk_freq.o
+ .data          0x0000000000001c7c        0x0 simpliciti/Components/nwk_applications/nwk_ioctl.o
+ .data          0x0000000000001c7c        0x0 simpliciti/Components/nwk_applications/nwk_join.o
+ .data          0x0000000000001c7c        0x0 simpliciti/Components/nwk_applications/nwk_link.o
+ .data          0x0000000000001c7c        0x0 simpliciti/Components/nwk_applications/nwk_mgmt.o
+ .data          0x0000000000001c7c        0x0 simpliciti/Components/nwk_applications/nwk_ping.o
+ .data          0x0000000000001c7c        0x0 simpliciti/Components/nwk_applications/nwk_security.o
+ .data          0x0000000000001c7c        0x0 main.o
+ .data          0x0000000000001c7c        0x0 even_in_range.o
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_divmod32.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fixunssfsi.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_addsub_sf.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_mul_sf.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_div_sf.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_gt_sf.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_ge_sf.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_lt_sf.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_si_to_sf.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_sf_to_si.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_thenan_sf.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_usi_to_sf.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clzsi2.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_pack_sf.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_unpack_sf.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fpcmp_parts_sf.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clz.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcmp.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memmove.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__low_level_init.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__stop_progExec__.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+ .data          0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+                0x0000000000001c7c                . = ALIGN (0x2)
+                0x0000000000001c7c                _edata = .
+                0x000000000000faaa                PROVIDE (__data_load_start, LOADADDR (.data))
+                0x000000000000007c                PROVIDE (__data_size, SIZEOF (.data))
+
+.bss            0x0000000000001c7c      0x224 load address 0x000000000000fb26
+                0x0000000000001c7c                PROVIDE (__bss_start, .)
+ *(.bss .bss.*)
+ .bss           0x0000000000001c7c        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/crt0ivtbl64.o
+ .bss           0x0000000000001c7c        0x0 logic/acceleration.o
+ .bss           0x0000000000001c7c        0x0 logic/alarm.o
+ .bss           0x0000000000001c7c        0x0 logic/altitude.o
+ .bss           0x0000000000001c7c        0x0 logic/battery.o
+ .bss           0x0000000000001c7c        0x0 logic/clock.o
+ .bss.BlTimeoutCounter
+                0x0000000000001c7c        0x1 logic/clock.o
+                0x0000000000001c7c                BlTimeoutCounter
+ .bss           0x0000000000001c7d        0x0 logic/date.o
+ .bss           0x0000000000001c7d        0x0 logic/menu.o
+ *fill*         0x0000000000001c7d        0x1 00
+ .bss.ptrMenu_L2
+                0x0000000000001c7e        0x2 logic/menu.o
+                0x0000000000001c7e                ptrMenu_L2
+ .bss.ptrMenu_L1
+                0x0000000000001c80        0x2 logic/menu.o
+                0x0000000000001c80                ptrMenu_L1
+ .bss           0x0000000000001c82        0x0 logic/rfbsl.o
+ .bss           0x0000000000001c82        0x0 logic/rfsimpliciti.o
+ .bss.packet_counter.2498
+                0x0000000000001c82        0x1 logic/rfsimpliciti.o
+ .bss           0x0000000000001c83        0x0 logic/stopwatch.o
+ .bss.delay.2449
+                0x0000000000001c83        0x1 logic/stopwatch.o
+ .bss           0x0000000000001c84        0x0 logic/temperature.o
+ .bss           0x0000000000001c84        0x0 logic/user.o
+ .bss           0x0000000000001c84        0x0 driver/adc12.o
+ .bss           0x0000000000001c84        0x0 driver/as.o
+ .bss           0x0000000000001c84        0x0 driver/bmp_as.o
+ .bss           0x0000000000001c84        0x0 driver/bmp_ps.o
+ .bss           0x0000000000001c84        0x0 driver/buzzer.o
+ .bss           0x0000000000001c84        0x0 driver/cma_as.o
+ .bss           0x0000000000001c84        0x0 driver/cma_ps.o
+ .bss           0x0000000000001c84        0x0 driver/display.o
+ .bss           0x0000000000001c84        0x0 driver/pmm.o
+ .bss           0x0000000000001c84        0x0 driver/ports.o
+ .bss.simpliciti_button_repeat.2485
+                0x0000000000001c84        0x1 driver/ports.o
+ .bss           0x0000000000001c85        0x0 driver/ps.o
+ .bss           0x0000000000001c85        0x0 driver/radio.o
+ .bss           0x0000000000001c85        0x0 driver/rf1a.o
+ .bss           0x0000000000001c85        0x0 driver/timer.o
+ .bss.button_lock_counter.2565
+                0x0000000000001c85        0x1 driver/timer.o
+ .bss           0x0000000000001c86        0x0 simpliciti/Applications/application/End_Device/main_ED_BM.o
+ .bss.sLinkID1  0x0000000000001c86        0x1 simpliciti/Applications/application/End_Device/main_ED_BM.o
+ .bss           0x0000000000001c87        0x0 simpliciti/Components/bsp/bsp.o
+ .bss           0x0000000000001c87        0x0 simpliciti/Components/mrfi/mrfi.o
+ .bss.sReplyDelayContext
+                0x0000000000001c87        0x1 simpliciti/Components/mrfi/mrfi.o
+ .bss.sKillSem  0x0000000000001c88        0x1 simpliciti/Components/mrfi/mrfi.o
+ *fill*         0x0000000000001c89        0x1 00
+ .bss.mrfiIncomingPacket
+                0x0000000000001c8a       0x22 simpliciti/Components/mrfi/mrfi.o
+ .bss.mrfiRndSeed
+                0x0000000000001cac        0x1 simpliciti/Components/mrfi/mrfi.o
+ .bss.mrfiRadioState
+                0x0000000000001cad        0x1 simpliciti/Components/mrfi/mrfi.o
+ .bss.sReplyDelayScalar
+                0x0000000000001cae        0x2 simpliciti/Components/mrfi/mrfi.o
+ .bss.sBackoffHelper
+                0x0000000000001cb0        0x2 simpliciti/Components/mrfi/mrfi.o
+ .bss.noFrame   0x0000000000001cb2        0x4 simpliciti/Components/mrfi/mrfi.o
+ .bss.crcFail   0x0000000000001cb6        0x4 simpliciti/Components/mrfi/mrfi.o
+ .bss.crcPass   0x0000000000001cba        0x4 simpliciti/Components/mrfi/mrfi.o
+ .bss.mrfiRxFilterEnabled
+                0x0000000000001cbe        0x1 simpliciti/Components/mrfi/mrfi.o
+ .bss           0x0000000000001cbf        0x0 simpliciti/Components/nwk/nwk.o
+ .bss           0x0000000000001cbf        0x0 simpliciti/Components/nwk/nwk_api.o
+ .bss.sInit_done
+                0x0000000000001cbf        0x1 simpliciti/Components/nwk/nwk_api.o
+                0x0000000000001cbf                sInit_done
+ .bss           0x0000000000001cc0        0x0 simpliciti/Components/nwk/nwk_frame.o
+ .bss.sMyTxType
+                0x0000000000001cc0        0x1 simpliciti/Components/nwk/nwk_frame.o
+ *fill*         0x0000000000001cc1        0x1 00
+ .bss.spCallback
+                0x0000000000001cc2        0x2 simpliciti/Components/nwk/nwk_frame.o
+ .bss.sMyAddr   0x0000000000001cc4        0x2 simpliciti/Components/nwk/nwk_frame.o
+ .bss.sTRACTID  0x0000000000001cc6        0x1 simpliciti/Components/nwk/nwk_frame.o
+ .bss           0x0000000000001cc7        0x0 simpliciti/Components/nwk/nwk_globals.o
+ *fill*         0x0000000000001cc7        0x1 00
+ .bss.sAPAddress
+                0x0000000000001cc8        0x4 simpliciti/Components/nwk/nwk_globals.o
+ .bss.sRAMAddressIsSet
+                0x0000000000001ccc        0x1 simpliciti/Components/nwk/nwk_globals.o
+ *fill*         0x0000000000001ccd        0x1 00
+ .bss.sMyRAMAddress
+                0x0000000000001cce        0x4 simpliciti/Components/nwk/nwk_globals.o
+ .bss           0x0000000000001cd2        0x0 simpliciti/Components/nwk/nwk_QMgmt.o
+ .bss.sInFrameQ
+                0x0000000000001cd2       0x48 simpliciti/Components/nwk/nwk_QMgmt.o
+ .bss.sOutFrameQ
+                0x0000000000001d1a       0x48 simpliciti/Components/nwk/nwk_QMgmt.o
+ .bss           0x0000000000001d62        0x0 simpliciti/Components/nwk_applications/nwk_freq.o
+ .bss           0x0000000000001d62        0x0 simpliciti/Components/nwk_applications/nwk_ioctl.o
+ .bss           0x0000000000001d62        0x0 simpliciti/Components/nwk_applications/nwk_join.o
+ .bss.sTid      0x0000000000001d62        0x1 simpliciti/Components/nwk_applications/nwk_join.o
+ *fill*         0x0000000000001d63        0x1 00
+ .bss.sJoinToken
+                0x0000000000001d64        0x4 simpliciti/Components/nwk_applications/nwk_join.o
+ .bss.spCallback
+                0x0000000000001d68        0x2 simpliciti/Components/nwk_applications/nwk_join.o
+ .bss           0x0000000000001d6a        0x0 simpliciti/Components/nwk_applications/nwk_link.o
+ .bss.sTid      0x0000000000001d6a        0x1 simpliciti/Components/nwk_applications/nwk_link.o
+ .bss.sNumLinkers
+                0x0000000000001d6b        0x1 simpliciti/Components/nwk_applications/nwk_link.o
+ .bss.sServiceLinkID
+                0x0000000000001d6c        0x1 simpliciti/Components/nwk_applications/nwk_link.o
+ .bss.sListenActive
+                0x0000000000001d6d        0x1 simpliciti/Components/nwk_applications/nwk_link.o
+ .bss.sLinkToken
+                0x0000000000001d6e        0x4 simpliciti/Components/nwk_applications/nwk_link.o
+ .bss           0x0000000000001d72        0x0 simpliciti/Components/nwk_applications/nwk_mgmt.o
+ .bss.sTid      0x0000000000001d72        0x1 simpliciti/Components/nwk_applications/nwk_mgmt.o
+ *fill*         0x0000000000001d73        0x1 00
+ .bss.sAPAddr   0x0000000000001d74        0x2 simpliciti/Components/nwk_applications/nwk_mgmt.o
+ .bss           0x0000000000001d76        0x0 simpliciti/Components/nwk_applications/nwk_ping.o
+ .bss.sTid      0x0000000000001d76        0x1 simpliciti/Components/nwk_applications/nwk_ping.o
+ .bss           0x0000000000001d77        0x0 simpliciti/Components/nwk_applications/nwk_security.o
+ .bss           0x0000000000001d77        0x0 main.o
+ .bss.BlOnFlag  0x0000000000001d77        0x1 main.o
+                0x0000000000001d77                BlOnFlag
+ .bss           0x0000000000001d78        0x0 even_in_range.o
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_divmod32.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fixunssfsi.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_addsub_sf.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_mul_sf.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_div_sf.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_gt_sf.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_ge_sf.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_lt_sf.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_si_to_sf.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_sf_to_si.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_thenan_sf.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_usi_to_sf.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clzsi2.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_pack_sf.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_unpack_sf.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fpcmp_parts_sf.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clz.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcmp.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memmove.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__low_level_init.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__stop_progExec__.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+ .bss           0x0000000000001d78        0x0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+ *(COMMON)
+ COMMON         0x0000000000001d78        0xa logic/acceleration.o
+                0x0000000000001d78                sAccel
+ COMMON         0x0000000000001d82        0x4 logic/alarm.o
+                0x0000000000001d82                sAlarm
+ COMMON         0x0000000000001d86        0xe logic/altitude.o
+                0x0000000000001d86                sAlt
+ COMMON         0x0000000000001d94        0x6 logic/battery.o
+                0x0000000000001d94                sBatt
+ COMMON         0x0000000000001d9a        0xe logic/clock.o
+                0x0000000000001d9a                sTime
+ COMMON         0x0000000000001da8        0x6 logic/date.o
+                0x0000000000001da8                sDate
+ COMMON         0x0000000000001dae        0x1 logic/rfbsl.o
+                0x0000000000001dae                rfBSL_button_confirmation
+ *fill*         0x0000000000001daf        0x1 00
+ COMMON         0x0000000000001db0       0x47 logic/rfsimpliciti.o
+                0x0000000000001db0                simpliciti_ed_address
+                0x0000000000001db4                simpliciti_flag
+                0x0000000000001db5                burst_packet_index
+                0x0000000000001db6                sRFsmpl
+                0x0000000000001dbc                simpliciti_data
+                0x0000000000001ddc                simpliciti_payload_length
+                0x0000000000001dde                burst_start
+                0x0000000000001de0                burst_end
+                0x0000000000001de2                simpliciti_reply_count
+                0x0000000000001de4                burst_packet
+                0x0000000000001df6                burst_mode
+ *fill*         0x0000000000001df7        0x1 00
+ COMMON         0x0000000000001df8        0xe logic/stopwatch.o
+                0x0000000000001df8                sStopwatch
+ COMMON         0x0000000000001e06        0x6 logic/temperature.o
+                0x0000000000001e06                sTemp
+ COMMON         0x0000000000001e0c        0x4 driver/adc12.o
+                0x0000000000001e0c                adc12_data_ready
+                0x0000000000001e0e                adc12_result
+ COMMON         0x0000000000001e10        0x1 driver/as.o
+                0x0000000000001e10                as_ok
+ *fill*         0x0000000000001e11        0x1 00
+ COMMON         0x0000000000001e12       0x1a driver/bmp_ps.o
+                0x0000000000001e12                bmp_param_b5
+                0x0000000000001e16                bmp_cal_param
+ COMMON         0x0000000000001e2c        0x8 driver/buzzer.o
+                0x0000000000001e2c                sBuzzer
+ COMMON         0x0000000000001e34        0xa driver/display.o
+                0x0000000000001e34                display
+                0x0000000000001e36                int_to_array_str
+ COMMON         0x0000000000001e3e        0x8 driver/ports.o
+                0x0000000000001e3e                button
+                0x0000000000001e40                sButton
+ COMMON         0x0000000000001e46       0x45 driver/ps.o
+                0x0000000000001e46                p
+                0x0000000000001e8a                ps_ok
+ *fill*         0x0000000000001e8b        0x1 00
+ COMMON         0x0000000000001e8c        0x4 driver/timer.o
+                0x0000000000001e8c                fptr_Timer0_A3_function
+                0x0000000000001e8e                sTimer
+ COMMON         0x0000000000001e90       0x10 main.o
+                0x0000000000001e90                fptr_lcd_function_line2
+                0x0000000000001e92                chronos_black
+                0x0000000000001e94                sys
+                0x0000000000001e96                rf_frequoffset
+                0x0000000000001e98                message
+                0x0000000000001e9a                bmp_used
+                0x0000000000001e9c                request
+                0x0000000000001e9e                fptr_lcd_function_line1
+                0x0000000000001ea0                . = ALIGN (0x2)
+                0x0000000000001ea0                PROVIDE (__bss_end, .)
+                0x0000000000000224                PROVIDE (__bss_size, SIZEOF (.bss))
+
+.noinit         0x0000000000001ea0        0x2 load address 0x000000000000fb26
+                0x0000000000001ea0                PROVIDE (__noinit_start, .)
+ *(.noinit .noinit.*)
+ .noinit.crt0   0x0000000000001ea0        0x2 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+                0x0000000000001ea0                __wdt_clear_value
+                0x0000000000001ea2                . = ALIGN (0x2)
+                0x0000000000001ea2                PROVIDE (__noinit_end, .)
+                0x0000000000001ea2                . = ALIGN (0x2)
+                0x0000000000001ea2                _end = .
+
+.infomem        0x0000000000001800        0x0
+ *(.infomem)
+                0x0000000000001800                . = ALIGN (0x2)
+ *(.infomem.*)
+
+.infomemnobits  0x0000000000001800        0x0
+ *(.infomemnobits)
+                0x0000000000001800                . = ALIGN (0x2)
+ *(.infomemnobits.*)
+
+.infoa
+ *(.infoa .infoa.*)
+
+.infob
+ *(.infob .infob.*)
+
+.infoc
+ *(.infoc .infoc.*)
+
+.infod
+ *(.infod .infod.*)
+
+.vectors        0x000000000000ff80       0x80
+                0x000000000000ff80                PROVIDE (__vectors_start, .)
+ *(.vectors*)
+ .vectors       0x000000000000ff80       0x80 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/crt0ivtbl64.o
+                0x000000000000ff80                __ivtbl_64
+                0x0000000000010000                _vectors_end = .
+
+.fartext        0x0000000000000000        0x0
+                0x0000000000000000                . = ALIGN (0x2)
+ *(.fartext)
+                0x0000000000000000                . = ALIGN (0x2)
+ *(.fartext.*)
+                0x0000000000000000                _efartext = .
+
+.profiler
+ *(.profiler)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x208
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+ .debug_aranges
+                0x0000000000000014       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_divmod32.o)
+ .debug_aranges
+                0x0000000000000028       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x000000000000003c       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x0000000000000050       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x0000000000000064       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_div_sf.o)
+ .debug_aranges
+                0x0000000000000078       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_gt_sf.o)
+ .debug_aranges
+                0x000000000000008c       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_ge_sf.o)
+ .debug_aranges
+                0x00000000000000a0       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_lt_sf.o)
+ .debug_aranges
+                0x00000000000000b4       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_si_to_sf.o)
+ .debug_aranges
+                0x00000000000000c8       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_sf_to_si.o)
+ .debug_aranges
+                0x00000000000000dc       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_usi_to_sf.o)
+ .debug_aranges
+                0x00000000000000f0       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x0000000000000104       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x0000000000000118       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_unpack_sf.o)
+ .debug_aranges
+                0x000000000000012c       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fpcmp_parts_sf.o)
+ .debug_aranges
+                0x0000000000000140       0x14 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcmp.o)
+ .debug_aranges
+                0x0000000000000154       0x14 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .debug_aranges
+                0x0000000000000168       0x14 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memmove.o)
+ .debug_aranges
+                0x000000000000017c       0x14 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .debug_aranges
+                0x0000000000000190       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+ .debug_aranges
+                0x00000000000001a4       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+ .debug_aranges
+                0x00000000000001b8       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+ .debug_aranges
+                0x00000000000001cc       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+ .debug_aranges
+                0x00000000000001e0       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+ .debug_aranges
+                0x00000000000001f4       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x2d8c
+ *(.debug_info)
+ .debug_info    0x0000000000000000       0xdc /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+ .debug_info    0x00000000000000dc       0xdc /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_divmod32.o)
+ .debug_info    0x00000000000001b8       0xb5 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fixunssfsi.o)
+ .debug_info    0x000000000000026d      0x425 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_addsub_sf.o)
+ .debug_info    0x0000000000000692      0x3c9 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_mul_sf.o)
+ .debug_info    0x0000000000000a5b      0x35c /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_div_sf.o)
+ .debug_info    0x0000000000000db7      0x26e /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_gt_sf.o)
+ .debug_info    0x0000000000001025      0x26e /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_ge_sf.o)
+ .debug_info    0x0000000000001293      0x26e /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_lt_sf.o)
+ .debug_info    0x0000000000001501      0x20b /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_si_to_sf.o)
+ .debug_info    0x000000000000170c      0x289 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_sf_to_si.o)
+ .debug_info    0x0000000000001995      0x144 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_thenan_sf.o)
+ .debug_info    0x0000000000001ad9      0x206 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_usi_to_sf.o)
+ .debug_info    0x0000000000001cdf      0x109 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clzsi2.o)
+ .debug_info    0x0000000000001de8      0x2b1 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_pack_sf.o)
+ .debug_info    0x0000000000002099      0x23e /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_unpack_sf.o)
+ .debug_info    0x00000000000022d7      0x1d5 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fpcmp_parts_sf.o)
+ .debug_info    0x00000000000024ac       0xa0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clz.o)
+ .debug_info    0x000000000000254c       0xe8 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcmp.o)
+ .debug_info    0x0000000000002634      0x111 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .debug_info    0x0000000000002745      0x111 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memmove.o)
+ .debug_info    0x0000000000002856       0xfe /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .debug_info    0x0000000000002954       0xb4 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+ .debug_info    0x0000000000002a08       0xb4 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+ .debug_info    0x0000000000002abc       0xb4 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+ .debug_info    0x0000000000002b70       0xb4 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+ .debug_info    0x0000000000002c24       0xb4 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+ .debug_info    0x0000000000002cd8       0xb4 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x0000000000000000     0x16b7
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+ .debug_abbrev  0x0000000000000014       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_divmod32.o)
+ .debug_abbrev  0x0000000000000028       0x5d /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x0000000000000085      0x1ab /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x0000000000000230      0x1d9 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x0000000000000409      0x1c4 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_div_sf.o)
+ .debug_abbrev  0x00000000000005cd      0x151 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_gt_sf.o)
+ .debug_abbrev  0x000000000000071e      0x151 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_ge_sf.o)
+ .debug_abbrev  0x000000000000086f      0x151 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_lt_sf.o)
+ .debug_abbrev  0x00000000000009c0      0x164 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_si_to_sf.o)
+ .debug_abbrev  0x0000000000000b24      0x160 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_sf_to_si.o)
+ .debug_abbrev  0x0000000000000c84       0xba /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x0000000000000d3e      0x17a /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_usi_to_sf.o)
+ .debug_abbrev  0x0000000000000eb8       0xac /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x0000000000000f64      0x192 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x00000000000010f6      0x15a /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x0000000000001250      0x10b /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fpcmp_parts_sf.o)
+ .debug_abbrev  0x000000000000135b       0x61 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clz.o)
+ .debug_abbrev  0x00000000000013bc       0x9b /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcmp.o)
+ .debug_abbrev  0x0000000000001457       0xa6 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .debug_abbrev  0x00000000000014fd       0xa6 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memmove.o)
+ .debug_abbrev  0x00000000000015a3       0x9c /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .debug_abbrev  0x000000000000163f       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+ .debug_abbrev  0x0000000000001653       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+ .debug_abbrev  0x0000000000001667       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+ .debug_abbrev  0x000000000000167b       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+ .debug_abbrev  0x000000000000168f       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+ .debug_abbrev  0x00000000000016a3       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+
+.debug_line     0x0000000000000000     0x1479
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0xa5 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+ .debug_line    0x00000000000000a5       0xae /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_divmod32.o)
+ .debug_line    0x0000000000000153       0x92 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fixunssfsi.o)
+ .debug_line    0x00000000000001e5      0x141 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_addsub_sf.o)
+ .debug_line    0x0000000000000326      0x13a /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_mul_sf.o)
+ .debug_line    0x0000000000000460       0xfc /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_div_sf.o)
+ .debug_line    0x000000000000055c       0xb2 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_gt_sf.o)
+ .debug_line    0x000000000000060e       0xb2 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_ge_sf.o)
+ .debug_line    0x00000000000006c0       0xb2 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_lt_sf.o)
+ .debug_line    0x0000000000000772       0xca /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_si_to_sf.o)
+ .debug_line    0x000000000000083c       0xc0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_sf_to_si.o)
+ .debug_line    0x00000000000008fc       0x95 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_thenan_sf.o)
+ .debug_line    0x0000000000000991       0xc9 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_usi_to_sf.o)
+ .debug_line    0x0000000000000a5a       0xbc /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clzsi2.o)
+ .debug_line    0x0000000000000b16      0x102 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_pack_sf.o)
+ .debug_line    0x0000000000000c18       0xde /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_unpack_sf.o)
+ .debug_line    0x0000000000000cf6       0xe9 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fpcmp_parts_sf.o)
+ .debug_line    0x0000000000000ddf       0x7e /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clz.o)
+ .debug_line    0x0000000000000e5d       0x73 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcmp.o)
+ .debug_line    0x0000000000000ed0       0xe9 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .debug_line    0x0000000000000fb9       0xe9 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memmove.o)
+ .debug_line    0x00000000000010a2       0xc8 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .debug_line    0x000000000000116a       0x82 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+ .debug_line    0x00000000000011ec       0x80 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+ .debug_line    0x000000000000126c       0x86 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+ .debug_line    0x00000000000012f2       0x86 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+ .debug_line    0x0000000000001378       0x81 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+ .debug_line    0x00000000000013f9       0x80 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+
+.debug_frame    0x0000000000000000      0x2fe
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x26 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x0000000000000026       0x54 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_addsub_sf.o)
+ .debug_frame   0x000000000000007a       0x34 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_mul_sf.o)
+ .debug_frame   0x00000000000000ae       0x2e /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_div_sf.o)
+ .debug_frame   0x00000000000000dc       0x22 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_gt_sf.o)
+ .debug_frame   0x00000000000000fe       0x22 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_ge_sf.o)
+ .debug_frame   0x0000000000000120       0x22 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_lt_sf.o)
+ .debug_frame   0x0000000000000142       0x28 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_si_to_sf.o)
+ .debug_frame   0x000000000000016a       0x22 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_sf_to_si.o)
+ .debug_frame   0x000000000000018c       0x2c /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_usi_to_sf.o)
+ .debug_frame   0x00000000000001b8       0x28 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clzsi2.o)
+ .debug_frame   0x00000000000001e0       0x2c /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_pack_sf.o)
+ .debug_frame   0x000000000000020c       0x28 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_unpack_sf.o)
+ .debug_frame   0x0000000000000234       0x24 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fpcmp_parts_sf.o)
+ .debug_frame   0x0000000000000258       0x24 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcmp.o)
+ .debug_frame   0x000000000000027c       0x2c /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .debug_frame   0x00000000000002a8       0x2c /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memmove.o)
+ .debug_frame   0x00000000000002d4       0x2a /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+
+.debug_str      0x0000000000000000      0x464
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x13d /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fixunssfsi.o)
+                                        0x183 (size before relaxing)
+ .debug_str     0x000000000000013d      0x158 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_addsub_sf.o)
+                                        0x260 (size before relaxing)
+ .debug_str     0x0000000000000295       0x27 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_mul_sf.o)
+                                        0x219 (size before relaxing)
+ .debug_str     0x00000000000002bc       0x35 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_div_sf.o)
+                                        0x222 (size before relaxing)
+ .debug_str     0x00000000000002f1        0x8 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_gt_sf.o)
+                                        0x1e7 (size before relaxing)
+ .debug_str     0x00000000000002f9        0x8 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_ge_sf.o)
+                                        0x1e7 (size before relaxing)
+ .debug_str     0x0000000000000301        0x8 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_lt_sf.o)
+                                        0x1e7 (size before relaxing)
+ .debug_str     0x0000000000000309       0x27 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_si_to_sf.o)
+                                        0x1d6 (size before relaxing)
+ .debug_str     0x0000000000000330        0xa /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_sf_to_si.o)
+                                        0x1f0 (size before relaxing)
+ .debug_str     0x0000000000000000      0x192 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_thenan_sf.o)
+ .debug_str     0x000000000000033a       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_usi_to_sf.o)
+                                        0x1d2 (size before relaxing)
+ .debug_str     0x000000000000034e       0x17 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clzsi2.o)
+                                        0x18f (size before relaxing)
+ .debug_str     0x0000000000000365       0x10 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_pack_sf.o)
+                                        0x1ef (size before relaxing)
+ .debug_str     0x0000000000000375        0xb /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_unpack_sf.o)
+                                        0x1d1 (size before relaxing)
+ .debug_str     0x0000000000000380       0x10 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fpcmp_parts_sf.o)
+                                        0x1b5 (size before relaxing)
+ .debug_str     0x0000000000000000      0x172 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clz.o)
+ .debug_str     0x0000000000000390       0x5f /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcmp.o)
+                                        0x100 (size before relaxing)
+ .debug_str     0x00000000000003ef       0x34 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+                                        0x11b (size before relaxing)
+ .debug_str     0x0000000000000423       0x1b /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memmove.o)
+                                        0x11d (size before relaxing)
+ .debug_str     0x000000000000043e       0x26 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+                                        0x119 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0xebf
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x30 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fixunssfsi.o)
+ .debug_loc     0x0000000000000030      0x28b /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_addsub_sf.o)
+ .debug_loc     0x00000000000002bb      0x204 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_mul_sf.o)
+ .debug_loc     0x00000000000004bf       0xf0 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_div_sf.o)
+ .debug_loc     0x00000000000005af       0x3c /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_gt_sf.o)
+ .debug_loc     0x00000000000005eb       0x3c /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_ge_sf.o)
+ .debug_loc     0x0000000000000627       0x3c /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_lt_sf.o)
+ .debug_loc     0x0000000000000663       0x9a /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_si_to_sf.o)
+ .debug_loc     0x00000000000006fd       0x3c /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_sf_to_si.o)
+ .debug_loc     0x0000000000000739       0x66 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_usi_to_sf.o)
+ .debug_loc     0x000000000000079f       0x70 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clzsi2.o)
+ .debug_loc     0x000000000000080f      0x154 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_pack_sf.o)
+ .debug_loc     0x0000000000000963       0x72 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_unpack_sf.o)
+ .debug_loc     0x00000000000009d5       0x5b /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_fpcmp_parts_sf.o)
+ .debug_loc     0x0000000000000a30       0x5e /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcmp.o)
+ .debug_loc     0x0000000000000a8e      0x1b7 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .debug_loc     0x0000000000000c45      0x1b7 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memmove.o)
+ .debug_loc     0x0000000000000dfc       0xc3 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x90
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x14 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_addsub_sf.o)
+ .debug_ranges  0x0000000000000014       0x38 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_mul_sf.o)
+ .debug_ranges  0x000000000000004c       0x2c /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_div_sf.o)
+ .debug_ranges  0x0000000000000078        0xc /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_usi_to_sf.o)
+ .debug_ranges  0x0000000000000084        0xc /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clzsi2.o)
+                0x0000000000002bfe                PROVIDE (__stack, (ORIGIN (ram) + 0xffe))
+                0x000000000000faaa                PROVIDE (__data_start_rom, _etext)
+                0x000000000000fb26                PROVIDE (__data_end_rom, (_etext + SIZEOF (.data)))
+OUTPUT(build/eZChronos.elf elf32-msp430)

@@ -71,8 +71,7 @@ long bmp_param_b5;
 // *************************************************************************************************
 void bmp_ps_init(void)
 {
-    volatile u8 success, status, eeprom, timeout;
-
+    volatile u8 status;
     ps_init();
 
     // Read ChipID to check if communication is working
@@ -229,16 +228,15 @@ u16 bmp_ps_get_temp(void)
     // Get temp bits from ADC_OUT registers
     ut = bmp_ps_read_register(BMP_085_ADC_OUT_MSB_REG, PS_I2C_16BIT_ACCESS);
 
-    // Add Compensation and convert decimal value to 0.1 °C
+    // Add Compensation and convert decimal value to 0.1 C
 	x1 = (((long) ut - (long) bmp_cal_param.ac6) * (long) bmp_cal_param.ac5) / 32768;
     x2 = ((long) bmp_cal_param.mc * 2048) / (x1 + bmp_cal_param.md);
     bmp_param_b5 = x1 + x2;
-    
-    temperature = ((bmp_param_b5 + 8) / 16);  // temperature in 0.1°C
 
-    // Convert from °C to K
+    temperature = ((bmp_param_b5 + 8) / 16);  // temperature in 0.1 C
+
+    // Convert from C to K
     kelvin = 2732 + temperature;
 
     return (kelvin);
 }
-

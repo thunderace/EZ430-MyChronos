@@ -1,0 +1,111 @@
+# DO NOT DELETE
+
+main.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+main.o: ./logic/clock.h ./driver/display.h ./driver/cma_as.h
+main.o: ./driver/bmp_as.h ./driver/as.h ./driver/cma_ps.h ./driver/bmp_ps.h
+main.o: ./driver/ps.h ./driver/radio.h ./driver/buzzer.h ./driver/ports.h
+main.o: ./driver/timer.h ./driver/pmm.h ./driver/rf1a.h ./logic/menu.h
+main.o: ./logic/date.h ./logic/alarm.h ./logic/stopwatch.h ./logic/battery.h
+main.o: ./logic/temperature.h ./logic/altitude.h ./logic/acceleration.h
+main.o: ./logic/rfsimpliciti.h ./simpliciti/simpliciti.h ./logic/rfbsl.h
+driver/adc12.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+driver/adc12.o: driver/adc12.h ./driver/timer.h
+driver/as.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+driver/as.o: ./driver/as.h ./driver/timer.h
+driver/bmp_as.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+driver/bmp_as.o: ./simpliciti/simpliciti.h ./driver/bmp_as.h ./driver/as.h
+driver/bmp_as.o: ./driver/timer.h ./driver/display.h
+driver/bmp_ps.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+driver/bmp_ps.o: ./driver/bmp_ps.h ./driver/ps.h ./driver/timer.h
+driver/buzzer.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+driver/buzzer.o: ./driver/buzzer.h ./driver/timer.h ./driver/display.h
+driver/buzzer.o: ./logic/alarm.h
+driver/cma_as.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+driver/cma_as.o: ./simpliciti/simpliciti.h ./driver/cma_as.h ./driver/as.h
+driver/cma_as.o: ./driver/timer.h ./driver/display.h
+driver/cma_ps.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+driver/cma_ps.o: ./driver/cma_ps.h ./driver/ps.h ./driver/timer.h
+driver/display.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+driver/display.o: ./driver/display.h ./logic/clock.h ./logic/user.h
+driver/display.o: ./logic/date.h ./logic/stopwatch.h ./logic/temperature.h
+driver/pmm.o: ./driver/pmm.h
+driver/ports.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+driver/ports.o: ./driver/ports.h ./driver/buzzer.h ./driver/bmp_as.h
+driver/ports.o: ./driver/cma_as.h ./driver/as.h ./driver/bmp_ps.h
+driver/ports.o: ./driver/cma_ps.h ./driver/ps.h ./driver/timer.h
+driver/ports.o: ./driver/display.h ./logic/clock.h ./logic/alarm.h
+driver/ports.o: ./logic/rfsimpliciti.h ./simpliciti/simpliciti.h
+driver/ports.o: ./logic/altitude.h ./logic/stopwatch.h
+driver/ps.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+driver/ps.o: ./driver/ps.h ./driver/timer.h
+driver/radio.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+driver/radio.o: ./driver/rf1a.h ./driver/timer.h ./logic/rfsimpliciti.h
+driver/radio.o: ./logic/bluerobin.h
+driver/rf1a.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+driver/rf1a.o: ./driver/rf1a.h
+driver/timer.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+driver/timer.o: ./driver/timer.h ./driver/ports.h ./driver/buzzer.h
+driver/timer.o: ./driver/bmp_as.h ./driver/cma_as.h ./driver/as.h
+driver/timer.o: ./driver/bmp_ps.h ./driver/cma_ps.h ./driver/ps.h
+driver/timer.o: ./driver/display.h ./logic/clock.h ./logic/battery.h
+driver/timer.o: ./logic/stopwatch.h ./logic/alarm.h ./logic/altitude.h
+driver/timer.o: ./logic/rfsimpliciti.h ./simpliciti/simpliciti.h
+driver/timer.o: ./logic/acceleration.h ./logic/bluerobin.h
+driver/timer.o: ./logic/temperature.h
+logic/acceleration.o: ./include/project.h ./bluerobin/bm.h config.h
+logic/acceleration.o: ./config.h ./driver/display.h ./driver/bmp_as.h
+logic/acceleration.o: ./driver/cma_as.h ./driver/as.h ./logic/acceleration.h
+logic/acceleration.o: ./simpliciti/simpliciti.h ./logic/user.h
+logic/alarm.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+logic/alarm.o: ./driver/display.h ./driver/buzzer.h ./driver/ports.h
+logic/alarm.o: ./logic/alarm.h ./logic/clock.h ./logic/user.h
+logic/altitude.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+logic/altitude.o: ./logic/altitude.h ./driver/display.h ./driver/ps.h
+logic/altitude.o: ./driver/bmp_ps.h ./driver/cma_ps.h ./driver/ports.h
+logic/altitude.o: ./driver/timer.h ./logic/user.h
+logic/battery.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+logic/battery.o: ./driver/display.h ./driver/ports.h driver/adc12.h
+logic/battery.o: ./logic/menu.h ./logic/battery.h
+logic/bluerobin_stubs.o: ./include/project.h ./bluerobin/bm.h config.h
+logic/bluerobin_stubs.o: ./config.h
+logic/clock.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+logic/clock.o: ./driver/ports.h ./driver/display.h ./driver/timer.h
+logic/clock.o: ./logic/menu.h ./logic/clock.h ./logic/user.h
+logic/clock.o: ./logic/bluerobin.h ./logic/date.h
+logic/date.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+logic/date.o: ./driver/display.h ./driver/ports.h ./logic/date.h
+logic/date.o: ./logic/user.h
+logic/menu.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+logic/menu.o: ./driver/display.h ./logic/menu.h ./logic/user.h
+logic/menu.o: ./logic/clock.h ./logic/date.h ./logic/alarm.h
+logic/menu.o: ./logic/stopwatch.h ./logic/temperature.h ./logic/altitude.h
+logic/menu.o: ./logic/battery.h ./logic/rfsimpliciti.h ./logic/acceleration.h
+logic/menu.o: ./logic/rfbsl.h
+logic/rfbsl.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+logic/rfbsl.o: ./driver/display.h ./driver/ports.h ./logic/rfbsl.h
+logic/rfbsl.o: ./logic/rfsimpliciti.h
+logic/rfsimpliciti.o: ./include/project.h ./bluerobin/bm.h config.h
+logic/rfsimpliciti.o: ./config.h ./driver/display.h ./driver/bmp_as.h
+logic/rfsimpliciti.o: ./driver/cma_as.h ./driver/as.h ./driver/ps.h
+logic/rfsimpliciti.o: ./driver/ports.h ./driver/timer.h ./driver/radio.h
+logic/rfsimpliciti.o: ./logic/acceleration.h ./logic/rfsimpliciti.h
+logic/rfsimpliciti.o: ./simpliciti/simpliciti.h ./logic/clock.h
+logic/rfsimpliciti.o: ./logic/date.h ./logic/alarm.h ./logic/temperature.h
+logic/rfsimpliciti.o: ./logic/altitude.h
+logic/stopwatch.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+logic/stopwatch.o: ./logic/stopwatch.h ./driver/ports.h ./driver/display.h
+logic/stopwatch.o: ./driver/timer.h ./logic/menu.h
+logic/temperature.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+logic/temperature.o: ./logic/temperature.h ./driver/ports.h
+logic/temperature.o: ./driver/display.h driver/adc12.h ./driver/timer.h
+logic/temperature.o: ./logic/user.h
+logic/test.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+logic/test.o: ./driver/display.h ./driver/bmp_as.h ./driver/cma_as.h
+logic/test.o: ./driver/bmp_ps.h ./driver/cma_ps.h ./driver/ps.h
+logic/test.o: ./driver/ports.h ./driver/timer.h ./logic/acceleration.h
+logic/test.o: ./logic/altitude.h ./logic/temperature.h ./logic/bluerobin.h
+logic/test.o: logic/test.h
+logic/user.o: ./include/project.h ./bluerobin/bm.h config.h ./config.h
+logic/user.o: ./driver/display.h ./driver/buzzer.h ./driver/ports.h
+logic/user.o: ./logic/menu.h ./logic/date.h ./logic/clock.h ./logic/user.h
+logic/user.o: ./logic/stopwatch.h

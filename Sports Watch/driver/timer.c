@@ -63,7 +63,9 @@
 #include "rfsimpliciti.h"
 #include "simpliciti.h"
 #include "acceleration.h"
+#ifdef BLUEROBIN
 #include "bluerobin.h"
+#endif
 #include "temperature.h"
 
 // *************************************************************************************************
@@ -253,8 +255,14 @@ void Timer0_A4_Delay(u16 ticks)
 // @param       none
 // @return      none
 // *************************************************************************************************
+
+#ifdef __GNUC__
+__attribute__((interrupt(TIMER0_A0_VECTOR)))
+#else
 #pragma vector = TIMER0_A0_VECTOR
-__interrupt void TIMER0_A0_ISR(void)
+__interrupt
+#endif
+void TIMER0_A0_ISR(void)
 {
     static u8 button_lock_counter = 0;
 
@@ -273,6 +281,7 @@ __interrupt void TIMER0_A0_ISR(void)
     // Set clock update flag
     display.flag.update_time = 1;
 
+#ifdef BLUEROBIN
     // While SimpliciTI stack operates or BlueRobin searches, freeze system state
     if (is_rf() || is_bluerobin_searching())
     {
@@ -302,7 +311,7 @@ __interrupt void TIMER0_A0_ISR(void)
         _BIC_SR_IRQ(LPM3_bits);
         return;
     }
-
+#endif
     // -------------------------------------------------------------------
     // Service modules that require 1/min processing
     if (sTime.drawFlag >= 2)
@@ -395,10 +404,11 @@ __interrupt void TIMER0_A0_ISR(void)
             request.flag.acceleration_measurement = 1;
     }
 
+#ifdef BLUEROBIN
     // If BlueRobin transmitter is connected, get data from API
     if (is_bluerobin())
         get_bluerobin_data();
-
+#endif
     // If battery is low, decrement display counter
     if (sys.flag.low_battery)
     {
@@ -534,18 +544,25 @@ __interrupt void TIMER0_A0_ISR(void)
 // @param       none
 // @return      none
 // *************************************************************************************************
-#pragma vector = TIMER0_A1_VECTOR
-__interrupt void TIMER0_A1_5_ISR(void)
+
+#ifdef __GNUC__
+__attribute__((interrupt(TIMER0_A1_VECTOR)))
+#else
+#pragma vector=PORT2_VECTOR
+__interrupt
+#endif
+void TIMER0_A1_5_ISR(void)
 {
     u16 value = 0;
 
     switch (TA0IV)
     {
+#ifdef BLUEROBIN
         // Timer0_A1    BlueRobin timer
         case 0x02:             // Timer0_A1 handler
             BRRX_TimerTask_v();
             break;
-
+#endif
         // Timer0_A2    1/1 or 1/100 sec Stopwatch
         case 0x04:             // Timer0_A2 handler
             // Disable IE

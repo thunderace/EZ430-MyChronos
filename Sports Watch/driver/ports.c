@@ -116,8 +116,14 @@ void init_buttons(void)
 // @param       none
 // @return      none
 // *************************************************************************************************
+
+#ifdef __GNUC__
+__attribute__((interrupt(PORT2_VECTOR)))
+#else
 #pragma vector=PORT2_VECTOR
-__interrupt void PORT2_ISR(void)
+__interrupt
+#endif
+void PORT2_ISR(void)
 {
     // Clear flags
     u8 int_flag, int_enable;

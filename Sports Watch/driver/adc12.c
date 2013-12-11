@@ -113,7 +113,12 @@ u16 adc12_single_conversion(u16 ref, u16 sht, u16 channel)
 // @param       none
 // @return      none
 // *************************************************************************************************
-#pragma vector=ADC12_VECTOR
+#ifdef __GNUC__
+__attribute__((interrupt(ADC12_VECTOR)))
+#else
+#pragma vector = ADC12_VECTOR
+__interrupt
+#endif
 __interrupt void ADC12ISR(void)
 {
     switch (__even_in_range(ADC12IV, 34))
