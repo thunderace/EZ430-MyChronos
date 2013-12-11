@@ -87,7 +87,10 @@
 // *************************************************************************************************
 void cma_as_start(void)
 {
-    __attribute__((unused)) volatile u16 Counter_u16;
+#ifdef __GNUC__
+    __attribute__((unused)) 
+#endif
+    volatile u16 Counter_u16;
     u8 bConfig;
 
     // Initialize SPI interface to acceleration sensor

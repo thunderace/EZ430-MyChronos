@@ -119,7 +119,7 @@ __attribute__((interrupt(ADC12_VECTOR)))
 #pragma vector = ADC12_VECTOR
 __interrupt
 #endif
-__interrupt void ADC12ISR(void)
+void ADC12ISR(void)
 {
     switch (__even_in_range(ADC12IV, 34))
     {

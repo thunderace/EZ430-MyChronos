@@ -75,10 +75,6 @@ const u8 selection_Timeformat[][4] = {
     "24H", "12H"
 };
 
-// $$AL$$ For Backlight: BL remains on for about 5sec also after button pressed
-extern u8 BlOnFlag;
-u8 BlTimeoutCounter = 0;
-
 // *************************************************************************************************
 // Extern section
 extern void (*fptr_lcd_function_line1)(u8 line, u8 update);
@@ -149,23 +145,6 @@ void clock_tick(void)
             }
         }
     }
-    
-    // $$AL$$ Changes the backlight behavior: 
-    // A short push of the button activates the backlight for about 4 seconds.
-    if(BlOnFlag == 1)
-    {
-        BlTimeoutCounter++;
-        if(BlTimeoutCounter > 4)
-        {
-        BlOnFlag = 0;
-        BlTimeoutCounter = 0;
-        display_symbol(LCD_ICON_HEART, SEG_OFF);
-//        BUTTONS_DIR &= ~BUTTON_BACKLIGHT_PIN;
-//        BUTTONS_OUT &= ~BUTTON_BACKLIGHT_PIN;
-//        BUTTONS_DS &= ~BUTTON_BACKLIGHT_PIN;
-        }
-    }
-
 }
 
 // *************************************************************************************************

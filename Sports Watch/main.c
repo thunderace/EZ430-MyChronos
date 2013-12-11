@@ -518,16 +518,11 @@ void wakeup_event(void)
         // Activate user function for Line1 menu item
         else if (button.flag.up)
         {
-#if 1
-            BlOnFlag = 1;
-            display_symbol(LCD_ICON_HEART, SEG_ON);
-#else
             // Call direct function
             ptrMenu_L1->sx_function(LINE1);
 
             // Set Line1 display update flag
             display.flag.line1_full_update = 1;
-#endif
 
             // Clear button flag
             button.flag.up = 0;
@@ -548,13 +543,18 @@ void wakeup_event(void)
         // $$AL$$ Backlight button event ----------------------------------------------------------
 	else if(button.flag.backlight) 	
 	{
-            // display heart symbol for 5 seconds
-            BlOnFlag = 1;
-            display_symbol(LCD_ICON_HEART, SEG_ON); 
-//             BUTTONS_OUT |= BUTTON_BACKLIGHT_PIN;
-//             BUTTONS_DIR |= BUTTON_BACKLIGHT_PIN;
-//             BUTTONS_DS  |= BUTTON_BACKLIGHT_PIN;
-	     button.flag.backlight = 0;
+            // display/hide heart symbol
+            if (BlOnFlag == 1)
+            {
+                BlOnFlag = 0;
+                display_symbol(LCD_ICON_HEART, SEG_OFF); 
+            } 
+            else
+            {
+                BlOnFlag = 1;
+                display_symbol(LCD_ICON_HEART, SEG_ON); 
+            }
+            button.flag.backlight = 0;
  	}			
     }
     // Process internal events
